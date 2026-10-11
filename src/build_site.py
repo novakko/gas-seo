@@ -367,7 +367,7 @@ padding:1rem;margin:.7rem 0}
 .muted{color:var(--mut);font-weight:400;font-size:.82em}
 .na{color:var(--mut);font-style:italic}
 footer{max-width:980px;margin:2rem auto 0;padding:1.2rem;color:var(--mut);
-font-size:.8rem;border-top:1px solid var(--ln)}
+font-size:.95rem;border-top:1px solid var(--ln)}
 .searchbar{max-width:980px;margin:0 auto 1rem;padding:0 1.2rem}
 .searchbar input{width:100%;background:var(--card);border:1px solid var(--ln);
 border-radius:12px;color:var(--tx);padding:.75rem 1rem;font-size:.95rem;outline:none}
@@ -475,10 +475,11 @@ oninput="filterReports(this.value)"></div>
 {sug_section}
 {chr(10).join(sections)}
 </main>
-<footer>Generated from REPORT-*.md in the gas-seo repository. Evidence markers:
-[verified] = fetched HTTP 200 + content matched · [unverified] = claim only ·
-[inference] = author reasoning. No numbers in this dossier are invented; where a
-figure could not be verified it is marked unknown, not fetched.</footer>
+<footer>
+<p>Generated {today} by <code>src/build_site.py</code> from 6 markdown dossiers
+(<~{stats['words']:,} words, uncommitted working tree) ·
+zero data invented — every claim carries its evidence tag in the source markdown.</p>
+</footer>
 <script>{JS}</script>
 </body>
 </html>"""
