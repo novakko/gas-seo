@@ -49,26 +49,44 @@ def esc(s: str) -> str:
 
 
 def inline(s: str) -> str:
-    """Inline markdown -> HTML. Order matters: code first, then links, then emphasis."""
-    s = esc(s)
-    # inline code
-    codes = []
+    """Inline markdown -> HTML. Placeholder extraction runs on raw text
+    (codes -> md images/links -> bare URLs), then escaping, then emphasis,
+    then placeholder restoration — so constructs can't collide."""
+    codes, links, urls = [], [], []
 
     def _code(m):
         codes.append(m.group(1))
         return f"\x00{len(codes)-1}\x00"
+
+    def _mdlink(m):
+        links.append((m.group(1), m.group(2)))  # text, url
+        return f"\x01{len(links)-1}\x01"
+
+    def _url(m):
+        raw = m.group(0)
+        u = raw.rstrip(".,;:")
+        trail = raw[len(u):]
+        urls.append(u)
+        return f"\x02{len(urls)-1}\x02{trail}"
+
     s = re.sub(r"`([^`]+)`", _code, s)
-    # images ![alt](url)
-    s = re.sub(r"!\[([^\]]*)\]\(([^)\s]+)\)", r'<img alt="\1" src="\2">', s)
-    # links [text](url)
-    s = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)",
-               r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
+    # images -> markdown links with suffix (render as links, no external assets)
+    s = re.sub(r"!\[([^\]]*)\]\(([^)\s]+)\)", r"[\1 (image)](\2)", s)
+    s = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", _mdlink, s)
+    s = re.sub(r"https?://[^\s)\]]+", _url, s)
+    s = esc(s)
     # bold, italic, strikethrough
     s = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<!\*)\*([^*\n]+)\*(?!\*)", r"<em>\1</em>", s)
     s = re.sub(r"~~([^~]+)~~", r"<del>\1</del>", s)
     for i, c in enumerate(codes):
-        s = s.replace(f"\x00{i}\x00", f"<code>{c}</code>")
+        s = s.replace(f"\x00{i}\x00", f"<code>{esc(c)}</code>")
+    for i, (txt, url) in enumerate(links):
+        s = s.replace(f"\x01{i}\x01",
+                      f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(txt)}</a>')
+    for i, u in enumerate(urls):
+        s = s.replace(f"\x02{i}\x02",
+                      f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(u)}</a>')
     return s
 
 
@@ -264,10 +282,11 @@ def suggestions_html(data):
         return ('<p class="na">Autocomplete dataset not present — '
                 'run src/fetch_suggest.py to fetch live data.</p>')
     seeds = sorted(data.keys())
-    chips = "".join(f'<button class="chip" data-seed="{esc(s)}" onclick="showSeed(this)">'
+    sid = lambda s: re.sub(r"[^\w]+", "-", s.lower(), flags=re.UNICODE).strip("-")[:80]
+    chips = "".join(f'<button class="chip" data-seed="{sid(s)}" onclick="showSeed(this)">'
                     f'{esc(s)}</button>' for s in seeds)
     rows = "".join(
-        f'<div class="seedbox hidden" id="seed-{esc(s)}">'
+        f'<div class="seedbox hidden" id="seed-{sid(s)}">'
         f"<h4>{esc(s)} <em class='muted'>— {len(v)} live suggestions</em></h4>"
         f"<ul class='suglist'>" + "".join(f"<li>{esc(x)}</li>" for x in v) + "</ul></div>"
         for s, v in sorted(data.items()))
@@ -421,6 +440,13 @@ def build():
 services business: local SEO, AI citations, competitor reverse-engineering,
 self-built monitoring tool. All claims source-marked.">
 <style>{CSS}</style>
+<script type="application/ld+json">
+{{"@context":"https://schema.org","@type":"TechArticle",
+"headline":"Gas Services Website — SEO Research Dossier",
+"datePublished":"{today}","dateModified":"{today}",
+"author":{{"@type":"Organization","name":"gas-seo"}},
+"about":{{"@type":"Thing","name":"SEO for local gas services business (Poland)"}}}}
+</script>
 </head>
 <body>
 <header class="hero">
