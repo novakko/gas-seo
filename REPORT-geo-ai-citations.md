@@ -30,6 +30,11 @@
 Five surfaces matter for a Polish gas-services business:
 
 1. **ChatGPT search** (OpenAI) — web-backed answers with inline citations.
+   Documented stack [verified: openai.com/index/introducing-chatgpt-search]:
+   "a fine-tuned version of GPT‑4o, post-trained" for search, drawing on
+   "third-party search providers, as well as content provided directly by our
+   partners." Bing is not named → the engine's exact index partner stays
+   [claim, unverified].
 2. **Perplexity** — search-first product; every answer is citation-bearing.
 3. **Claude web search** (Anthropic) — launched 2025-03-20, global on all plans
    2025-05-27 [verified: anthropic.com/news/web-search].
@@ -130,6 +135,13 @@ Documented pieces of the pipeline:
   Participants: Bing, Naver, Seznam, Yandex, Yep. Google does not participate.
   Key-file ownership proves submitter controls the site; HTTP 429 = treated as
   spam signal. 10,000 URLs per POST is the documented cap.
+- **OpenAI–Reddit partnership** [verified:
+  openai.com/index/openai-and-reddit-partnership]: Reddit's Data API —
+  "real-time, structured" content — feeds OpenAI products including ChatGPT.
+  So Reddit threads are a *documented* ChatGPT input, not just community
+  folklore; organically earning relevant thread presence (r/poland HVAC
+  threads, local subs) is slow but real [inference]. (Fetching Reddit
+  directly was still impossible this session — 403/429 on every route.)
 - **Bing Places** (business listing): involvement of Bing Places data in
   Perplexity's local answers is [claim, unverified]; creating the listing is
   near-zero cost and is independently required for Bing maps presence.
@@ -154,7 +166,12 @@ full text fetched].
 - Results: adding **citations to sources, quotations, and statistics** yields
   +30–40% relative visibility (Position-Adjusted Word Count) and +15–30%
   (Subjective Impression); fluency improvements also +15–30%; headline "up to
-  40%"; deployed Perplexity experiments "up to 37%".
+  40%"; deployed Perplexity experiments "up to 37%". Two nuances from the
+  full text [verified]: **Keyword Stuffing performed ~10% *worse*** than
+  baseline ("Keyword Stuffing traditionally used in SEO don't perform well"),
+  and gains were **largest for lower-ranked sources** (e.g. Statistics
+  Addition scored +115.1 at rank 5 vs −20.6 at rank 1) — i.e. GEO levers
+  help a *new* domain most, which is exactly this project's situation.
 - **Caveat for this project** [inference]: the measured queries are not
   "best gas engineer near me" style. Directionally, the levers (specific
   numbers, quoted standards, cited regulations) map naturally onto a trades
@@ -170,7 +187,7 @@ full text fetched].
 | Bing Webmaster + Bing Places listing | documented inputs; downstream AI effect [claim, unverified] |
 | GBP review volume/velocity → Gemini/AIO local answers | [inference] — grounding uses Google results; local pack ranking is GBP-driven per REPORT-local-seo-technical.md |
 | Presence in crawlable PL directories | [inference] — directories are the crawlable entity records |
-| Reddit/forum presence boosting AI citations | [claim, unverified] — Reddit was not fetchable this session (403 at IP level on all routes; PullPush 429; redlib bot-walled). Community claims not verified. |
+| Reddit/forum presence boosting AI citations | **documented for ChatGPT** (OpenAI–Reddit Data API partnership); organic presence itself is a long game. Fetching Reddit for research was impossible this session (403 at IP level on all routes; PullPush 429; redlib bot-walled). |
 | llms.txt improving citations | no documented adoption commitment by any engine (§6) |
 
 ## 5. Recommended actions for the gas-services site
@@ -220,9 +237,21 @@ Compliant measurement designs:
    automated channels. A nightly script sends the same prompt battery via API
    (search-enabled model for OpenAI), records cited URLs, and diffs week over
    week. Cost is the only downside; prompt batteries of ~20 prompts × 5
-   engines weekly are trivially cheap. Gemini grounding returns
-   `url_citation` annotations programmatically [verified — documented output
-   shape], making it the easiest engine to measure automatically.
+   engines weekly are trivially cheap. Documented API surfaces [verified]:
+   - **Gemini grounding**: `google_search` tool; model picks queries; inline
+     URL + cited-text annotations come back programmatically. Pricing:
+     **5,000 grounded searches/month free**, then $14 per 1,000 (Gemini 3+
+     models) — the cheapest documented automated measurement of the five.
+   - **Perplexity**: Agent API (built-in citations; base URL
+     `perplexity.ai/v1/agent`) and a Search API exist [verified:
+     docs.perplexity.ai]; exact pricing unknown (not fetched).
+   - **Anthropic** `web_search` tool: returns "cited sources" with each
+     response [verified: docs.anthropic.com web-search-tool docs].
+   - **OpenAI**: search-enabled responses through the API; retrieval of cited
+     URLs is possible but annotation shape was not verified this session
+     [unverified].
+   - **Copilot**: no sanctioned programmatic channel documented → manual
+     battery only.
 3. **Crawler-access canary**: the site's access log answers "are the AI
    crawlers actually coming?" — grep for OAI-SearchBot/PerplexityBot/GPTBot
    user-agents by published IP ranges (`openai.com/searchbot.json`,
@@ -242,8 +271,10 @@ Compliant measurement designs:
 - Local-query GEO effect sizes: the paper's benchmark contains no
   local-business queries; treat its percentages as informational-query
   measurements.
-- Reddit's role in AI answers: community chatter is loud but every fetch
-  route was blocked from this network (403/429/bot-walls); effect unverified.
+- Reddit's role: documented as a ChatGPT input via the OpenAI partnership
+  [verified]; its weight in answers, and any equivalent Perplexity/Claude
+  deal mechanics, remain unquantified (fetch routes all blocked this
+  session).
 - llms.txt: no engine has documented that it consults the file (§6 of
   llmstxt.org's own text lists publisher-side adoption only).
 
@@ -265,6 +296,14 @@ All fetched 2026-10-11 from this project's sessions; raw copies in `src/`.
   `url_citation` output shape [verified]
 - https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers
   — current crawler taxonomy; no Google-Extended section remains [verified]
+- https://openai.com/index/introducing-chatgpt-search/ — search stack:
+  fine-tuned GPT-4o, third-party search providers/partner content [verified]
+- https://openai.com/index/openai-and-reddit-partnership/ — Reddit Data API
+  feeds ChatGPT ("real-time, structured" content) [verified]
+- https://docs.perplexity.ai/docs/getting-started/overview — Agent API +
+  Search API existence [verified; pricing unknown (not fetched)]
+- https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/web-search-tool
+  — `web_search` returns cited sources [verified]
 - https://arxiv.org/abs/2311.09735 — GEO paper abstract [verified]
 - https://arxiv.org/html/2311.09735 (full text) — GEO-bench composition and
   effect sizes [verified]
