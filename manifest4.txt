@@ -1,0 +1,6 @@
+https://www.udt.gov.pl/egzamin-y-kwalifikacyjne/	i_udt_egzaminy2.html
+https://www.udt.gov.pl/uploads/udt/upload/file/Przystapienie%20do%20egzaminu.pdf	i_udt_przystapienie.pdf
+https://pl.wikipedia.org/w/api.php?action=query&list=search&srsearch=kocio%C5%82%20gazowy&format=json&srlimit=5	i_wiki_search.json
+https://pl.wikipedia.org/w/api.php?action=query&list=search&srsearch=uprawnienia%20energetyczne%20G3&format=json&srlimit=5	i_wiki_search_g3.json
+https://www.gov.pl/web/klimat/uprawnienia-sep	i_gov_sep.html
+https://openfoodfacts.github.io/	i_ping_github.html

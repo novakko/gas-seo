@@ -1,0 +1,3 @@
+https://roboty.ceneo.pl/	i_ceneo_roboty.html
+https://panoramafirm.pl/robots.txt	i_pf_robots.txt
+https://www.oferteo.pl/	i_oferteo_home.html

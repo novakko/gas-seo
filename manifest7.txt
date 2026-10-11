@@ -1,0 +1,6 @@
+https://searx.be/search?q=serwis+kot%C5%82%C3%B3w+gazowych&language=pl	serp_searx.html
+https://www.ecosia.org/search?q=serwis%20kot%C5%82%C3%B3w%20gazowych	serp_ecosia.html
+https://search.brave.com/search?q=serwis+kot%C5%82%C3%B3w+gazowych	serp_brave.html
+https://api.qwant.com/v3/search/web?q=serwis+kot%C5%82%C3%B3w+gazowych&count=10&locale=pl_pl	serp_qwant.json
+https://katalog.wp.pl/	i_katalog_wp.html
+https://www.oferteo.pl/serwis-kotlow/uslugi	i_oferteo.html

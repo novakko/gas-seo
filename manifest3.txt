@@ -1,0 +1,7 @@
+https://panoramafirm.pl/szukaj?q=serwis+kot%C5%82%C3%B3w+gazowych	firma_pf_search.html
+https://fixly.pl/uslugi/serwis-kotlow	i_fixly.html
+https://www.udt.gov.pl/	i_udt_home.html
+https://www.udt.gov.pl/sitemap.xml	i_udt_sitemap.xml
+https://www.gov.pl/web/kcnkyl/egzaminy	i_gov_egzaminy.html
+https://pl.wikipedia.org/wiki/Kocio%C5%82_gazowy	i_wiki_kociol.html
+https://pl.wikipedia.org/wiki/Instalacja_gazowa	i_wiki_instalacja.html

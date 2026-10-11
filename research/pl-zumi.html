@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pl" class="light-mode dark-mode" data-beasties-container>
+  <head>
+    <script>
+      try {
+        const stored = localStorage.getItem('theme-preference');
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = stored || (prefersDark ? 'dark' : 'light');
+        const root = document.firstElementChild;
+        root.classList.remove('light-mode');
+        root.classList.remove('dark-mode');
+        root.classList.add(theme === 'dark' ? 'dark-mode' : 'light-mode');
+
+        const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+        if (themeColorMeta) {
+          themeColorMeta.setAttribute('content', theme === 'dark' ? '#191919' : '#282641');
+        }
+      } catch (_) {}
+    </script>
+
+    <meta charset="utf-8">
+    <title>Jakdojade - podróżuj wygodnie komunikacją miejską i PKP</title>
+    <base href="/">
+
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="refresh" content="86400">
+    <meta http-equiv="expires" content="0">
+
+    <meta name="color-scheme" content="dark light">
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+
+    <meta name="description" content="Skorzystaj z Jakdojade, aby szybko i bezproblemowo zaplanować podróż komunikacją miejską oraz PKP. Sprawdź rozkład jazdy, odjazdy live i kupuj bilety mobilne.">
+    <meta name="author" content="city-nav.com">
+    <meta name="keywords" content="tramwaj, autobus, metro, trolejbus, przystanek, linia, trasa, dojazd, nawigacja, komunikacja miejska, bilety, ruch drogowy, jak dojade ">
+    <!-- Open Graph Tags -->
+    <meta property="og:url" content="https://jakdojade.pl/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jakdojade">
+    <meta property="og:description" content="Kompleksowe narzędzie do planowania podróży komunikacją miejską">
+    <meta property="og:image" content="https://jakdojade.pl/assets/icons/jpg/logo-on-facebook.jpg">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="fb:app_id" content="166402048961">
+
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="assets/icons/png/jakdojade/logo-180x180.png" sizes="180x180">
+    <meta name="theme-color" content="#282641">
+
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <meta name="apple-itunes-app" content="app-id=506795511">
+
+    <script>
+      // Third-party tags can copy location.href into their requests before Angular boots. Keep them
+      // pending for a login link until LoginLinkComponent has removed the one-time token from the URL.
+      (function () {
+        var releaseTracking;
+        var isLoginLink = false;
+
+        try {
+          isLoginLink = /^\/zaloguj(?:[;/]|$)/.test(decodeURIComponent(location.pathname));
+        } catch (_) {}
+
+        var hasLoginToken = isLoginLink && new URL(location.href).searchParams.has('token');
+        window.dataLayer = window.dataLayer || [];
+        window.trackingReady = new Promise(function (resolve) {
+          releaseTracking = function () {
+            resolve();
+          };
+        });
+        window.releaseTracking = releaseTracking;
+
+        if (hasLoginToken) {
+          var referrerPolicy = document.createElement('meta');
+          referrerPolicy.name = 'referrer';
+          referrerPolicy.content = 'no-referrer';
+          document.head.appendChild(referrerPolicy);
+        } else {
+          releaseTracking();
+        }
+      })();
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script src="/assets/scripts/gtm-config.js"></script>
+
+    <style media="screen">
+      /* css for browser update library */
+      body .buorg {
+        animation: 0.5s ease-out 0s buorgfly;
+      }
+
+      body .buorg-fadeout {
+        transition:
+          visibility 0s 1.5s,
+          opacity 1s ease-out 0.5s;
+      }
+
+      #splash-screen {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+      }
+
+      #splash-screen .splash-screen-logo {
+        width: 80px;
+        height: 70px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #splash-screen .splash-screen-buildings {
+        position: fixed;
+        bottom: 0;
+        height: 25%;
+        width: 100%;
+        background-position: left 0 bottom -168px;
+        background-repeat: repeat-x;
+      }
+
+      :root {
+        #splash-screen {
+          background: var(--white);
+        }
+
+        #splash-screen .splash-screen-logo {
+          background-image: url('/assets/icons/svg/logo/colorful/logo.svg');
+        }
+
+        #splash-screen .splash-screen-buildings {
+          background-image: url('/assets/icons/svg/city.svg');
+        }
+
+        &.dark-mode {
+          #splash-screen {
+            background: var(--space-cadet);
+          }
+
+          #splash-screen .splash-screen-logo {
+            background-image: url('/assets/icons/svg/logo/white/logo.svg');
+          }
+
+          #splash-screen .splash-screen-buildings {
+            background-image: url('/assets/icons/svg/city-dark.svg');
+          }
+        }
+      }
+
+      #splash-screen.splash-screen-animation {
+        animation: splash-screen-disappear 750ms forwards;
+      }
+
+      @keyframes splash-screen-disappear {
+        80% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
+  <style>@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:200;src:url("./media/Manrope-ExtraLight-2GQP5SBL.woff2") format("woff2")}@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:300;src:url("./media/Manrope-Light-NNKCQU7M.woff2") format("woff2")}@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:400;src:url("./media/Manrope-Regular-X3A2UY47.woff2") format("woff2")}@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:500;src:url("./media/Manrope-Medium-OTNH26LB.woff2") format("woff2")}@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:600;src:url("./media/Manrope-SemiBold-BZPQ4ZSH.woff2") format("woff2")}@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:700;src:url("./media/Manrope-Bold-PM64W6XM.woff2") format("woff2")}@font-face{font-family:Manrope;font-style:normal;font-display:swap;font-weight:800;src:url("./media/Manrope-ExtraBold-RQMWVKWZ.woff2") format("woff2")}*{padding:0;margin:0;box-sizing:border-box}:root{--schedules-open-bottom-sheet-height:263px;--schedules-half-open-bottom-sheet-height:70%}:root{--font-family:Manrope, "Arial", sans-serif;--font-family-mono:ui-monospace, "SF Mono", Menlo, monospace}:root{--black:#000000;--black-rgb:0, 0, 0;--gray950:#191919;--gray950-rgb:25, 25, 25;--gray900:#303030;--gray900-rgb:48, 48, 48;--gray800:#4f4f4f;--gray700:#6e6e6e;--gray600:#888888;--gray500:#a7a7a7;--gray400:#bfbfbf;--gray300:#d3d3d3;--gray200:#e5e5e5;--gray150:#f0f0f0;--gray100:#f6f6f6;--white:#ffffff;--white-rgb:255, 255, 255;--green900:#02281b;--green800:#055035;--green700:#077750;--green600:#0a9f6a;--green500:#0cc785;--green400:#5ad3a9;--green300:#89e4c5;--green200:#b5edd9;--green100:#e0faf0;--blue900:#002230;--blue800:#004560;--blue700:#006790;--blue600:#008ac0;--blue550:#079fdb;--blue500:#00acf0;--blue400:#27c2ff;--blue300:#5dd1ff;--blue200:#93e0ff;--blue100:#c9f0ff;--cobalt900:#000b40;--cobalt800:#001580;--cobalt700:#0020c1;--cobalt600:#264aff;--cobalt500:#3658ff;--cobalt400:#6881ff;--cobalt300:#8ea1ff;--cobalt200:#b4c0ff;--cobalt100:#e6eaff;--yellow900:#403200;--yellow800:#806300;--yellow700:#c19500;--yellow600:#ffc502;--yellow500:#ffd442;--yellow400:#ffdd68;--yellow300:#ffe58e;--yellow200:#ffeeb3;--yellow100:#fff6d9;--red900:#390209;--red800:#730312;--red700:#ac051b;--red600:#e50724;--red500:#f92e49;--red400:#fa586d;--red300:#fb8292;--red200:#fdabb6;--red100:#fed5db;--orange900:#2f0d00;--orange800:#5e1a00;--orange700:#b03200;--orange600:#eb4200;--orange500:#ff6427;--orange400:#ff8352;--orange300:#ffa27d;--orange200:#ffc1a9;--orange100:#ffe0d4;--space-cadet:#282641;--space-cadet-rgb:40, 38, 65;--blue-jeans:#40a3ff;--midnight:#72277c;--facebook:#1877f2;--wtp-waw:rgb(214, 28, 19)}:root{--radius-2XS:2px;--radius-XS:4px;--radius-S:6px;--radius-M:8px;--radius-L:12px;--radius-XL:16px;--radius-2XL:20px;--radius-3XL:360px;--radius-full:360px}:root{--spacing-4XS:2px;--spacing-3XS:4px;--spacing-2_5XS:6px;--spacing-2XS:8px;--spacing-XS:12px;--spacing-S:16px;--spacing-M:20px;--spacing-L:24px;--spacing-XL:28px;--spacing-2XL:32px;--spacing-3XL:36px;--spacing-4XL:40px;--spacing-5XL:44px}:root{--zone-1:var(--green400);--zone-2:var(--yellow300);--zone-3:var(--orange300);--zone-4:var(--blue300);--zone-5:var(--gray300)}:root.light-mode{color-scheme:light;--background-primary:var(--white);--background-secondary:var(--gray100);--background-tertiary:var(--gray200);--background-tertiary-b:var(--gray200);--background-quaternary:var(--white);--background-white:var(--white);--background-positive:var(--green600);--background-light-positive:var(--green100);--background-negative:var(--red600);--background-light-negative:var(--red100);--background-warning:var(--yellow600);--background-light-warning:var(--yellow100);--background-informative:var(--blue550);--background-light-informative:var(--blue100);--background-active:var(--cobalt600);--background-navbar:var(--space-cadet);--background-snackbar:var(--gray950);--background-ticket-default:var(--space-cadet);--background-dots:var(--gray400);--content-primary:var(--gray900);--content-primary-inverse:var(--white);--content-secondary:var(--gray700);--content-tertiary:var(--white);--content-tertiary-navbar:var(--white);--content-tertiary-inverse:var(--gray900);--content-tertiary-inverse-navbar:var(--gray900);--content-positive:var(--green600);--content-negative:var(--red500);--content-warning:var(--yellow700);--content-informative:var(--blue500);--content-active:var(--partnership-dominant-light, var(--white));--border-primary:var(--gray150);--border-secondary:var(--gray200);--border-secondary-b:var(--gray200);--border-secondary-c:var(--gray200);--border-tertiary:var(--gray300);--border-nav-divider:rgba(var(--space-cadet-rgb), 0);--interaction-primary:var(--yellow500);--interaction-secondary:var(--gray150);--interaction-tertiary:var(--white);--interaction-tertiary-navbar:var(--white);--interaction-primary-tab:var(--partnership-dominant-light, var(--yellow500));--transparent:transparent;--transparent-white-12:rgba(var(--white-rgb), .12);--transparent-white-40:rgba(var(--white-rgb), .4);--transparent-white-50:rgba(var(--white-rgb), .5);--transparent-white-60:rgba(var(--white-rgb), .6);--transparent-white-black-16:rgba(var(--white-rgb), .16);--transparent-white-black-40:rgba(var(--white-rgb), .4);--transparent-black-4:rgba(var(--black-rgb), .04);--transparent-black-8:rgba(var(--black-rgb), .08);--transparent-black-12:rgba(var(--black-rgb), .12);--transparent-black-20:rgba(var(--black-rgb), .2);--transparent-black-white-8:rgba(var(--black-rgb), .08);--transparent-black-white-12:rgba(var(--black-rgb), .12);--transparent-black-white-20:rgba(var(--black-rgb), .2);--transparent-black-white-40:rgba(var(--black-rgb), .4);--transparent-overlay:rgba(var(--white-rgb), .6);--surface-separation:rgba(var(--black-rgb), .32);--map-line:var(--gray900);--map-alternative:var(--gray500);--map-center:var(--white);--skeleton-light:rgba(var(--white-rgb), .28);--skeleton-bg:var(--gray150);--skeleton-light-space-cadet:rgba(var(--white-rgb), .04);--skeleton-bg-space-cadet:#32304d;--ticket-top:var(--space-cadet);--ticket-bottom:var(--background-primary);--ticket-stroke:var(--background-tertiary-b);--privacy-policy-footer-background:var(--white);--user-position-line-overlay:rgba(38, 74, 255, .08)}:root.dark-mode{color-scheme:dark;--background-primary:var(--gray950);--background-secondary:var(--black);--background-tertiary:var(--gray950);--background-tertiary-b:var(--gray900);--background-quaternary:var(--black);--background-white:var(--white);--background-positive:var(--green600);--background-light-positive:var(--green800);--background-negative:var(--red500);--background-light-negative:var(--red800);--background-warning:var(--yellow700);--background-light-warning:var(--yellow900);--background-informative:var(--blue600);--background-light-informative:var(--blue800);--background-active:var(--cobalt400);--background-navbar:var(--gray950);--background-snackbar:var(--gray150);--background-ticket-default:var(--gray150);--content-primary:var(--gray100);--content-primary-inverse:var(--gray950);--content-secondary:var(--gray500);--content-tertiary:var(--gray100);--content-tertiary-navbar:var(--gray100);--content-tertiary-inverse:var(--gray900);--content-tertiary-inverse-navbar:var(--gray900);--content-positive:var(--green500);--content-negative:var(--red400);--content-warning:var(--yellow700);--content-informative:var(--blue400);--content-active:var(--partnership-dominant-dark, var(--gray100));--border-primary:var(--gray900);--border-secondary:var(--gray800);--border-secondary-b:var(--gray900);--border-secondary-c:var(--gray950);--border-tertiary:var(--gray700);--border-nav-divider:var(--gray900);--interaction-primary:var(--yellow500);--interaction-secondary:var(--gray900);--interaction-tertiary:var(--gray900);--interaction-tertiary-navbar:var(--gray900);--interaction-primary-tab:var(--partnership-dominant-dark, var(--yellow500));--transparent:transparent;--transparent-white-12:rgba(var(--white-rgb), .12);--transparent-white-40:rgba(var(--white-rgb), .4);--transparent-white-50:rgba(var(--white-rgb), .5);--transparent-white-60:rgba(var(--white-rgb), .4);--transparent-white-black-16:rgba(var(--black-rgb), .16);--transparent-white-black-40:rgba(var(--black-rgb), .4);--transparent-black-4:rgba(var(--black-rgb), .04);--transparent-black-8:rgba(var(--black-rgb), .08);--transparent-black-12:rgba(var(--black-rgb), .12);--transparent-black-20:rgba(var(--black-rgb), .2);--transparent-black-white-8:rgba(var(--white-rgb), .08);--transparent-black-white-12:rgba(var(--white-rgb), .12);--transparent-black-white-20:rgba(var(--white-rgb), .2);--transparent-black-white-40:rgba(var(--white-rgb), .4);--transparent-overlay:rgba(var(--gray950-rgb), .5);--surface-separation:rgba(var(--black-rgb), .7);--map-line:var(--gray150);--map-alternative:var(--gray500);--map-center:var(--gray900);--skeleton-light:rgba(var(--white-rgb), .06);--skeleton-bg:var(--gray900);--skeleton-light-space-cadet:rgba(var(--white-rgb), .06);--skeleton-bg-space-cadet:var(--gray900);--ticket-top:var(--space-cadet);--ticket-bottom:#111111;--ticket-stroke:#262626;--privacy-policy-footer-background:var(--white);--background-dots:var(--gray800)}:root.light-mode{--onboarding-city-image:url(/assets/icons/svg/city-light.svg);--onboarding-logo-image:url(/assets/icons/svg/logo/black/jakdojade-logo.svg);--jakdojade-header-logo:url(/assets/icons/svg/logo/black/jakdojade.svg);--tickets-placeholder-image:url(/assets/images/svg/ticket.svg);--settings-buildings-image:url(/assets/icons/png/buildings-blurred.png);--wallet-card-background:url(/assets/icons/png/wallet-rainbow-background.png);--wallet-card-icon:url(/assets/icons/svg/settings-wallet.svg);--partnership-city-logo:var(--partnership-city-logo-light)}:root.dark-mode{--onboarding-city-image:url(/assets/icons/svg/city-dark-alternative.svg);--onboarding-logo-image:url(/assets/icons/svg/logo/white/jakdojade-logo.svg);--jakdojade-header-logo:url(/assets/icons/svg/logo/white/jakdojade.svg);--tickets-placeholder-image:url(/assets/images/svg/ticket-dark.svg);--settings-buildings-image:url(/assets/icons/png/buildings-blurred-dark.png);--wallet-card-background:url(/assets/icons/png/wallet-rainbow-background-dark.png);--wallet-card-icon:url(/assets/icons/svg/settings-wallet-dark.svg);--partnership-city-logo:var(--partnership-city-logo-dark)}:root.light-mode{--line-1:var(--green600);--line-dark-1:#07734c;--line-2:var(--blue500);--line-dark-2:#007cad;--line-3:#6f30f2;--line-dark-3:#411b92;--line-4:#e38879;--line-dark-4:#b37066;--line-5:#f17384;--line-dark-5:#b75764;--line-6:#558b6e;--line-dark-6:#3a5f4b;--line-7:#7a6263;--line-dark-7:#493b3b;--line-8:#e7ae4d;--line-dark-8:#c09347;--line-walk:var(--gray400);--line-walk-dark:var(--gray600);--line-special:#903092;--line-special-dark:#5f2160;--line-alt-1:#84cfb4;--line-alt-dark-1:#6fae97;--line-alt-2:#99def9;--line-alt-dark-2:#81bbd1;--line-alt-3:#c8b1f9;--line-alt-dark-3:#a895d1;--line-alt-4:#f4c4bc;--line-alt-dark-4:#cda59e;--line-alt-5:#f9c0c8;--line-alt-dark-5:#d1a1a8;--line-alt-6:#b2cbbe;--line-alt-dark-6:#96aba0;--line-alt-7:#dbc3c5;--line-alt-dark-7:#a49b9b;--line-alt-8:#f8dfb4;--line-alt-dark-8:#d0bb97;--line-walk-alt:var(--gray300);--line-walk-alt-dark:var(--gray500);--line-special-alt:#f0cbf1;--line-special-alt-dark:#c0a2c1}:root.dark-mode{--line-1:#19aa76;--line-dark-1:#23bc85;--line-2:#24aee4;--line-dark-2:#33bff6;--line-3:#9d73f4;--line-dark-3:#ae8ef2;--line-4:#dc7f70;--line-dark-4:#ed9587;--line-5:#ec6a7b;--line-dark-5:#ff8a9a;--line-6:#60987a;--line-dark-6:#84af98;--line-7:#8d7374;--line-dark-7:#a78888;--line-8:#dca953;--line-dark-8:#e6c185;--line-walk:var(--gray500);--line-walk-dark:var(--gray400);--line-special:#b36db4;--line-special-dark:#c78cc8;--line-alt-1:#085d3e;--line-alt-dark-1:#167251;--line-alt-2:#046b93;--line-alt-dark-2:#167da5;--line-alt-3:#6731d9;--line-alt-dark-3:#8456e4;--line-alt-4:#a85a4c;--line-alt-dark-4:#b47165;--line-alt-5:#b75764;--line-alt-dark-5:#be6f7b;--line-alt-6:#3a5f4b;--line-alt-dark-6:#597767;--line-alt-7:#5f4e4e;--line-alt-dark-7:#735f5f;--line-alt-8:#a58246;--line-alt-dark-8:#caa25e;--line-walk-alt:var(--gray700);--line-walk-alt-dark:var(--gray600);--line-special-alt:#7a407c;--line-special-alt-dark:#8a618c}:root{--user-point-item-min-width:74px}html,body{background-color:var(--background-secondary);height:100%;width:100%;position:fixed;overscroll-behavior:contain;color:var(--content-primary);font-family:var(--font-family);overscroll-behavior-y:none;font-size:1rem;line-height:1.375rem;letter-spacing:-.01875rem;font-weight:400;-webkit-tap-highlight-color:var(--transparent)}body{overflow:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;-webkit-tap-highlight-color:var(--transparent)!important}:root{view-transition-name:none}</style><link rel="stylesheet" href="styles-MNRKYMOJ.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-MNRKYMOJ.css"></noscript><link rel="canonical" href="https://jakdojade.pl/"></head>
+
+  <body>
+    <div id="splash-screen">
+      <div class="splash-screen-logo"></div>
+      <div class="splash-screen-buildings"></div>
+    </div>
+    <app-root></app-root>
+    <script>
+      (function () {
+        var appRoot = document.querySelector('app-root');
+        if (appRoot && !appRoot.hasAttribute('ng-server-context')) {
+          var splash = document.getElementById('splash-screen');
+          if (splash) splash.style.display = 'flex';
+        }
+      })();
+    </script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T5LNRKNB" height="0" width="0" style="display: none; visibility: hidden" referrerpolicy="no-referrer"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Onet ads config -->
+    <script src="/assets/scripts/dlApi-config.js"></script>
+
+    <script>
+      var $buoop = {
+        required: { e: 124, f: 126, o: 109, s: 14, c: 125 },
+        api: 2024.08,
+        shift_page_down: false,
+      };
+
+      function $buo_f() {
+        var e = document.createElement('script');
+        e.src = '//browser-update.org/update.min.js';
+        document.body.appendChild(e);
+      }
+
+      window.trackingReady.then(function () {
+        try {
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', $buo_f, false);
+          } else {
+            $buo_f();
+          }
+        } catch (e) {
+          window.attachEvent('onload', $buo_f);
+        }
+      });
+    </script>
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
+  <script src="main-7EEIFVX6.js" type="module"></script></body>
+</html>

@@ -1,0 +1,5 @@
+https://wod-gaz.com/katalog_produktow/kotly-gazowe/	k_wodgaz_kotly.html
+http://www.wod-gaz.com/buderus	k_wodgaz_buderus.html
+https://wod-gaz.com/oferta/	k_wodgaz_oferta.html
+https://sanrad.pl/kotly-gazowe/	k_sanrad_kotly.html
+https://wod-gaz.com/o-nas/	k_wodgaz_onas.html

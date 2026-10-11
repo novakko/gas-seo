@@ -1,0 +1,10 @@
+https://panoramafirm.pl/instalacje,gazowe,krakow.html	firma_pf_krakow.html
+https://panoramafirm.pl/firmy,serwis,kot%C5%82%C3%B3w.html	firma_pf_serwis.html
+https://aleo.com/pl/kategoria/instalacje-gazowe	firma_aleo.html
+https://www.udt.gov.pl/przystapienie-do-egzaminu/	i_udt_egzamin.html
+https://www.udt.gov.pl/egzaminy-kwalifikacyjne-g1-g2-g3/	i_udt_g1g2g3.html
+https://www.gov.pl/web/kcnkyl	i_gov_kcnkyl2.html
+https://www.bing.com/search?q=serwis+kot%C5%82%C3%B3w+gazowych&format=rss	serp_bing_rss.xml
+https://www.bing.com/search?q=instalacje+gazowe+krak%C3%B3w&format=rss	serp_bing_rss2.xml
+https://duckduckgo.com/html/?q=serwis+kot%C5%82%C3%B3w+gazowych+firma	serp_ddg.html
+https://www.startpage.com/sp/search?query=serwis+kot%C5%82%C3%B3w+gazowych	serp_startpage.html

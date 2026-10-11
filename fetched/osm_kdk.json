@@ -1,0 +1,2680 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-01T08:52:28Z",
+    "timestamp_areas_base": "2026-06-01T08:52:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1439644062,
+  "lat": 52.3357415,
+  "lon": 20.9625040,
+  "tags": {
+    "addr:city": "Warszawa",
+    "addr:housenumber": "71",
+    "addr:postcode": "03-118",
+    "addr:street": "Józefa Mehoffera",
+    "contact:website": "http://www.sigmawent.pl/",
+    "craft": "hvac",
+    "email": "biuro@sigmawent.pl",
+    "name": "Sigmawent"
+  }
+},
+{
+  "type": "node",
+  "id": 1444992670,
+  "lat": 52.0866251,
+  "lon": 19.9213794,
+  "tags": {
+    "craft": "hvac",
+    "name": "Eco-Therm"
+  }
+},
+{
+  "type": "node",
+  "id": 1453976139,
+  "lat": 52.1099825,
+  "lon": 19.9480100,
+  "tags": {
+    "craft": "hvac"
+  }
+},
+{
+  "type": "node",
+  "id": 1531440127,
+  "lat": 52.0038202,
+  "lon": 19.7791845,
+  "tags": {
+    "craft": "hvac",
+    "name": "centralne ogrzewanie - spawanie, miedź, plastik"
+  }
+},
+{
+  "type": "node",
+  "id": 1750314078,
+  "lat": 53.8305140,
+  "lon": 22.3900071,
+  "tags": {
+    "addr:city": "Ełk",
+    "addr:housenumber": "28",
+    "addr:street": "Rzemieślnicza",
+    "craft": "hvac",
+    "email": "uniterm@uniterm.com.pl",
+    "name": "Uniterm",
+    "phone": "+48876109997",
+    "website": "http://www.uniterm.com.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 1794438204,
+  "lat": 54.3441656,
+  "lon": 18.6627334,
+  "tags": {
+    "check_date": "2026-05-18",
+    "craft": "hvac",
+    "name": "Gralanta"
+  }
+},
+{
+  "type": "node",
+  "id": 1909278993,
+  "lat": 52.4012022,
+  "lon": 20.9367113,
+  "tags": {
+    "craft": "hvac",
+    "name": "Refleks chłodnictwo",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-14:00",
+    "phone": "+48 22 784 27 47"
+  }
+},
+{
+  "type": "node",
+  "id": 1913912642,
+  "lat": 52.3362129,
+  "lon": 20.9628185,
+  "tags": {
+    "addr:city": "Warszawa",
+    "addr:housenumber": "75",
+    "addr:postcode": "03-118",
+    "addr:street": "Józefa Mehoffera",
+    "craft": "hvac",
+    "email": "menerga@menerga.pl",
+    "fax": "+48 22 6700935",
+    "name": "Menegra",
+    "phone": "+48 22 6700832",
+    "website": "http://www.menerga.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 2543309275,
+  "lat": 52.4220617,
+  "lon": 16.8712524,
+  "tags": {
+    "addr:city": "Poznań",
+    "addr:housenumber": "183",
+    "addr:postcode": "60-594",
+    "addr:street": "Jana Henryka Dąbrowskiego",
+    "craft": "hvac",
+    "mobile": "+48 695 613 499",
+    "name": "klima ❄ master",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)",
+    "website": "https://www.klima-master.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 2603945592,
+  "lat": 51.3913900,
+  "lon": 19.6612600,
+  "tags": {
+    "addr:city": "Piotrków Trybunalski",
+    "addr:city:simc": "0967430",
+    "addr:housenumber": "61-63",
+    "addr:postcode": "97-300",
+    "addr:street": "Wronia",
+    "addr:street:sym_ul": "24811",
+    "craft": "hvac",
+    "name": "Kar-Bart Gazy techniczne",
+    "source:addr": "mpiotrkowtrybunalski.e-mapa.net"
+  }
+},
+{
+  "type": "node",
+  "id": 2707838839,
+  "lat": 50.3100897,
+  "lon": 18.6883296,
+  "tags": {
+    "addr:city": "Gliwice",
+    "addr:housenumber": "97",
+    "addr:postcode": "44-100",
+    "addr:street": "Tarnogórska",
+    "check_date": "2025-11-17",
+    "check_date:currency:XBT": "2025-11-17",
+    "craft": "hvac",
+    "currency:XBT": "yes",
+    "description": "Instalacje ogrzewcze, wentylacyjne serwis i prace modernizacyjne wszelkich instalacji w budynkach jednorodzinnych i przemysłowych.\nHeating and ventilation installations service.",
+    "name": "Timmler",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "payment:cash": "yes",
+    "payment:lightning": "yes",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "phone": "+48 884 8888 13",
+    "source:addr": "EMUiA (emuia.gugik.gov.pl)"
+  }
+},
+{
+  "type": "node",
+  "id": 2754435871,
+  "lat": 52.3685500,
+  "lon": 16.8262200,
+  "tags": {
+    "addr:city": "Plewiska",
+    "addr:city:simc": "0585897",
+    "addr:housenumber": "72",
+    "addr:postcode": "62-064",
+    "addr:street": "Południowa",
+    "craft": "hvac",
+    "description": "Chłodnictwo, klimatyzacja itd.",
+    "name": "TC Servis",
+    "source:addr": "komorniki.e-mapa.net"
+  }
+},
+{
+  "type": "node",
+  "id": 2821291601,
+  "lat": 52.1238418,
+  "lon": 19.9462521,
+  "tags": {
+    "contact:website": "http://klimanovum.pl",
+    "craft": "hvac",
+    "name": "klimanovum.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 2945675130,
+  "lat": 51.8913849,
+  "lon": 17.7787087,
+  "tags": {
+    "contact:facebook": "https://www.facebook.com/EurogasEko",
+    "craft": "hvac",
+    "name": "Eurogas-Eko",
+    "phone": "+48602721633"
+  }
+},
+{
+  "type": "node",
+  "id": 3028106091,
+  "lat": 52.3756419,
+  "lon": 16.9740151,
+  "tags": {
+    "craft": "hvac",
+    "email": "biuro@gsklima.pl",
+    "name": "GS Klima",
+    "shop": "yes",
+    "website": "http://www.gsklima.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 3233292422,
+  "lat": 50.0944187,
+  "lon": 18.2181187,
+  "tags": {
+    "craft": "hvac",
+    "name": "Technika grzewcza",
+    "shop": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3743828874,
+  "lat": 49.9683992,
+  "lon": 20.6123366,
+  "tags": {
+    "addr:city": "Brzesko",
+    "addr:city:simc": "0981966",
+    "addr:housenumber": "49E",
+    "addr:postcode": "32-800",
+    "addr:street": "Bartosza Głowackiego",
+    "addr:street:sym_ul": "05627",
+    "craft": "hvac",
+    "name": "Piotrowicz - technika grzewcza",
+    "source:addr": "brzesko.e-mapa.net"
+  }
+},
+{
+  "type": "node",
+  "id": 3792014496,
+  "lat": 52.6123116,
+  "lon": 16.5867332,
+  "tags": {
+    "addr:city": "Szamotuły",
+    "addr:city:simc": "0971531",
+    "addr:housenumber": "27",
+    "addr:postcode": "64-500",
+    "addr:street": "Aleja Jana Pawła II",
+    "craft": "hvac",
+    "name": "Artbud SC. - Technika grzewcza",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-13:00",
+    "phone": "+48698636542",
+    "source": "knowledge",
+    "source:addr": "szamotuly.e-mapa.net"
+  }
+},
+{
+  "type": "node",
+  "id": 3848666157,
+  "lat": 52.1281128,
+  "lon": 20.6922140,
+  "tags": {
+    "check_date": "2025-10-08",
+    "craft": "hvac",
+    "name": "Auto-Klima - Piotr Zieliński",
+    "phone": "+48 530 502 502",
+    "website": "https://auto-klima.waw.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4144466327,
+  "lat": 52.6057160,
+  "lon": 15.8979039,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klimatyzacja, pompy ciepła"
+  }
+},
+{
+  "type": "node",
+  "id": 4305693408,
+  "lat": 51.7525081,
+  "lon": 19.4110509,
+  "tags": {
+    "craft": "hvac"
+  }
+},
+{
+  "type": "node",
+  "id": 4313361270,
+  "lat": 52.2920795,
+  "lon": 21.1156604,
+  "tags": {
+    "addr:door": "57",
+    "addr:housenumber": "4",
+    "addr:postcode": "05-091",
+    "addr:street": "Orla",
+    "brand": "Buderus",
+    "check_date": "2024-11-03",
+    "contact:phone": "+48 600350637",
+    "contact:website": "http://www.buderussalon.pl",
+    "craft": "hvac",
+    "name": "Kryst",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4338631168,
+  "lat": 52.0851670,
+  "lon": 21.0639133,
+  "tags": {
+    "addr:city": "Chyliczki",
+    "addr:housenumber": "1",
+    "addr:postcode": "05-500",
+    "addr:street": "Stanisława Moniuszki",
+    "craft": "hvac",
+    "email": "sklep@kotlownie.com",
+    "name": "Termo-Instalplast",
+    "phone": "+48 509 398 501",
+    "url": "www.kotlownie.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4411422860,
+  "lat": 50.6257632,
+  "lon": 19.3671880,
+  "tags": {
+    "addr:city": "Żarki",
+    "addr:housenumber": "4",
+    "addr:postcode": "42-310",
+    "addr:street": "Piaski",
+    "contact:email": "biuro@kotly-szafir.pl",
+    "contact:phone": "+48 512868471;+48 530577848",
+    "craft": "hvac",
+    "name": "Kotły Szafir",
+    "opening_hours": "Mo-Tu,Th 09:00-17:00; We,Sa 08:00-12:30; PH off",
+    "website": "https://kotly-szafir.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4461408700,
+  "lat": 51.1268857,
+  "lon": 16.9674617,
+  "tags": {
+    "addr:city": "Wrocław",
+    "addr:housenumber": "4a",
+    "addr:postcode": "54-130",
+    "addr:street": "bulwar Dedala",
+    "craft": "hvac",
+    "name": "Cymex",
+    "opening_hours": "Mo-Fr 09:00-15:00",
+    "shop": "hvac",
+    "website": "https://www.cymex.pl",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4562595047,
+  "lat": 50.1136298,
+  "lon": 19.8736634,
+  "tags": {
+    "craft": "hvac",
+    "name": "ANG"
+  }
+},
+{
+  "type": "node",
+  "id": 4598923703,
+  "lat": 50.2956929,
+  "lon": 21.7414224,
+  "tags": {
+    "craft": "hvac",
+    "name": "AC Klima",
+    "office": "company",
+    "website": "https://www.ac-klima.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4611917400,
+  "lat": 51.6491507,
+  "lon": 17.8141544,
+  "tags": {
+    "addr:city": "Ostrów Wielkopolski",
+    "addr:housenumber": "3/2",
+    "addr:postcode": "63-400",
+    "addr:street": "Plac 23 Stycznia",
+    "craft": "hvac",
+    "name": "Przedsiębiorstwo Handlowo-Usługowe ToNy - Tomasz Walczak",
+    "phone": "+48 572 275 595",
+    "website": "https://phutony.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4648062995,
+  "lat": 51.8172888,
+  "lon": 19.3058619,
+  "tags": {
+    "craft": "hvac",
+    "name": "Instal-Dom"
+  }
+},
+{
+  "type": "node",
+  "id": 4755254521,
+  "lat": 52.5640299,
+  "lon": 16.4386973,
+  "tags": {
+    "craft": "hvac",
+    "name": "Eko Logi Team",
+    "opening_hours": "Mo-Fr 8:00-16:00",
+    "phone": "+48691766133"
+  }
+},
+{
+  "type": "node",
+  "id": 4785045404,
+  "lat": 51.0774000,
+  "lon": 16.9591943,
+  "tags": {
+    "addr:city": "Wrocław",
+    "addr:housenumber": "51/5",
+    "addr:postcode": "52-437",
+    "addr:street": "Honoriusza Balzaka",
+    "craft": "hvac",
+    "email": "piotr.krzewicki@wp.pl",
+    "name": "Technika Instalacyjna Piotr Krzewicki",
+    "phone": "+48 691 331 743",
+    "website": "http://www.technika-instalacyjna.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4920464530,
+  "lat": 52.5176465,
+  "lon": 17.6211394,
+  "tags": {
+    "addr:city": "Gniezno",
+    "addr:city:simc": "0970632",
+    "addr:housenumber": "49",
+    "addr:postcode": "62-200",
+    "addr:street": "Kawiary",
+    "craft": "hvac",
+    "name": "Serwis klimatyzacji Orlikowski",
+    "website": "https://www.klimatyzacje.gniezno.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5054873165,
+  "lat": 50.0844983,
+  "lon": 19.9080184,
+  "tags": {
+    "addr:city": "Kraków",
+    "addr:housenumber": "7",
+    "addr:postcode": "31-339",
+    "addr:street": "Wojciecha Weissa",
+    "craft": "hvac",
+    "name": "Viessmann",
+    "opening_hours": "Mo-Fr 08:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5057921579,
+  "lat": 50.3030413,
+  "lon": 19.0307244,
+  "tags": {
+    "contact:email": "biuro.fhu.lugowski@gmail.com",
+    "contact:facebook": "100075435712721",
+    "contact:phone": "+48 608 598 768",
+    "craft": "hvac",
+    "name": "FHU Kamil Ługowski"
+  }
+},
+{
+  "type": "node",
+  "id": 5062835219,
+  "lat": 50.1154563,
+  "lon": 19.8693304,
+  "tags": {
+    "craft": "hvac",
+    "name": "Gepro"
+  }
+},
+{
+  "type": "node",
+  "id": 5203881400,
+  "lat": 52.2982258,
+  "lon": 17.0542560,
+  "tags": {
+    "addr:city": "Gądki",
+    "addr:city:simc": "0586514",
+    "addr:housenumber": "11",
+    "addr:postcode": "62-023",
+    "addr:street": "Szkolna",
+    "craft": "hvac",
+    "name": "Eurowent Poznań - hurtownia wentylacyjna",
+    "opening_hours": "Mo-Fr 07:00-15:00",
+    "website": "https://eurowent.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5236569574,
+  "lat": 50.8334846,
+  "lon": 16.5024398,
+  "tags": {
+    "craft": "hvac",
+    "name": "ICE PRO"
+  }
+},
+{
+  "type": "node",
+  "id": 5247502619,
+  "lat": 50.6681100,
+  "lon": 17.9379522,
+  "tags": {
+    "craft": "hvac",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 10:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5253774014,
+  "lat": 50.3118236,
+  "lon": 18.8517339,
+  "tags": {
+    "addr:city": "Ruda Śląska",
+    "addr:housenumber": "25",
+    "addr:postcode": "41-700",
+    "addr:street": "Wolności",
+    "check_date": "2025-04-05",
+    "craft": "hvac",
+    "name": "POLONUS-S",
+    "opening_hours": "Mo-Fr 10:00-17:00",
+    "phone": "+48 791 185 907"
+  }
+},
+{
+  "type": "node",
+  "id": 5455211292,
+  "lat": 52.2571586,
+  "lon": 21.0490664,
+  "tags": {
+    "addr:city": "Warszawa",
+    "addr:housenumber": "3/42",
+    "addr:postcode": "03-749",
+    "addr:street": "Wiosenna",
+    "contact:email": "termosystem@termosystem.waw.pl",
+    "contact:phone": "+48 603 918 464",
+    "contact:website": "http://www.termosystem.waw.pl/",
+    "craft": "hvac",
+    "name": "TermoSystem",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 5504017310,
+  "lat": 53.4993156,
+  "lon": 14.4798419,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klima Partners Apart"
+  }
+},
+{
+  "type": "node",
+  "id": 5599259817,
+  "lat": 54.6072216,
+  "lon": 18.1983054,
+  "tags": {
+    "addr:city": "Wejherowo",
+    "addr:housenumber": "16",
+    "addr:postcode": "84-200",
+    "addr:street": "Feliksa Rogaczewskiego",
+    "craft": "hvac",
+    "email": "langebm@wp.pl",
+    "name": "Wentylacja Klimatyzacja Serwis Marek Lange",
+    "phone": "+48 58 672 41 49",
+    "phone_1": "502 991 442",
+    "website": "http://www.klimatyzacja-lange.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5713379203,
+  "lat": 54.6108134,
+  "lon": 18.2158462,
+  "tags": {
+    "addr:city": "Wejherowo",
+    "addr:housenumber": "12",
+    "addr:postcode": "84-200",
+    "addr:street": "Dębowa",
+    "craft": "hvac",
+    "email": "biuro@litwin-ck.com.pl",
+    "name": "Litwin Chłodnictwo Klimatyzacja",
+    "operator": "Jan Litwin",
+    "phone": "+48 58 677 52 53",
+    "website": "https://www.litwin-ck.com.pl/index.html"
+  }
+},
+{
+  "type": "node",
+  "id": 5906199824,
+  "lat": 50.0902396,
+  "lon": 19.9119693,
+  "tags": {
+    "contact:phone": "+48 12 415 1572",
+    "craft": "hvac",
+    "name": "Klimatik sp. z.o.o.",
+    "office": "company",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "owner": "Lipiński Grzegorz",
+    "website": "http://www.klimatik.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 5961212986,
+  "lat": 49.8957454,
+  "lon": 21.0524823,
+  "tags": {
+    "craft": "hvac",
+    "name": "KlimaTuchów"
+  }
+},
+{
+  "type": "node",
+  "id": 6179489756,
+  "lat": 51.0771982,
+  "lon": 16.9557216,
+  "tags": {
+    "addr:city": "Wrocław",
+    "addr:housenumber": "5",
+    "addr:postcode": "52-408",
+    "addr:street": "Cesarzowicka",
+    "craft": "hvac",
+    "description": "technika chłodnicza, klimatyzacja",
+    "name": "Elektronika SA",
+    "office": "company",
+    "website": "https://www.elektronika-sa.com.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 6230791882,
+  "lat": 50.8344363,
+  "lon": 16.5030216,
+  "tags": {
+    "craft": "hvac",
+    "name": "AT-KLIMA"
+  }
+},
+{
+  "type": "node",
+  "id": 6299718252,
+  "lat": 54.1804885,
+  "lon": 19.3998264,
+  "tags": {
+    "addr:city": "Elbląg",
+    "addr:housenumber": "183D",
+    "addr:postcode": "82-300",
+    "addr:street": "Robotnicza",
+    "check_date": "2025-11-03",
+    "contact:facebook": "https://www.facebook.com/BestAirKlimatyzacjaElblag",
+    "craft": "hvac",
+    "email": "biuro@bestair.com.pl",
+    "name": "BestAir",
+    "office": "company",
+    "opening_hours": "Mo-Fr 08:00-15:00; Sa-Su,PH off",
+    "phone": "+48 796 100 340",
+    "website": "https://www.bestair.com.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 6336300197,
+  "lat": 52.0754429,
+  "lon": 17.3755337,
+  "tags": {
+    "addr:city:simc": "1037867",
+    "addr:housenumber": "2C",
+    "addr:place": "Komorze",
+    "addr:postcode": "63-040",
+    "check_date": "2024-03-31",
+    "craft": "hvac",
+    "name": "AK Klimatyzacje Sp. z o.o.",
+    "office": "company",
+    "phone": "+48 535 380 806"
+  }
+},
+{
+  "type": "node",
+  "id": 6378460314,
+  "lat": 52.3411039,
+  "lon": 21.0564692,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klima Mika"
+  }
+},
+{
+  "type": "node",
+  "id": 6404145265,
+  "lat": 53.4360972,
+  "lon": 14.5292779,
+  "tags": {
+    "craft": "hvac",
+    "name": "Biernat"
+  }
+},
+{
+  "type": "node",
+  "id": 6504561940,
+  "lat": 52.3922347,
+  "lon": 16.9049195,
+  "tags": {
+    "addr:city": "Poznań",
+    "addr:housenumber": "37",
+    "addr:postcode": "60-718",
+    "addr:street": "Kolejowa",
+    "craft": "hvac",
+    "name": "Termo-Technik Serwis Viessmann",
+    "source": "Viessmann",
+    "source:addr": "EMUiA (emuia.geoportal.gov.pl)"
+  }
+},
+{
+  "type": "node",
+  "id": 6981120061,
+  "lat": 52.2256304,
+  "lon": 21.1402486,
+  "tags": {
+    "addr:housenumber": "389",
+    "addr:street": "Trakt Lubelski",
+    "check_date": "2024-04-07",
+    "craft": "hvac",
+    "name": "Kominex",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6985736229,
+  "lat": 52.2258147,
+  "lon": 21.1435220,
+  "tags": {
+    "craft": "hvac",
+    "name": "Polska Korporacja Fotowoltaiczna S.A.",
+    "opening_hours": "Mo-Fr 09:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7024233363,
+  "lat": 52.2035232,
+  "lon": 21.1627284,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klimedo.com"
+  }
+},
+{
+  "type": "node",
+  "id": 7049865042,
+  "lat": 52.1743565,
+  "lon": 20.9180897,
+  "tags": {
+    "craft": "hvac",
+    "description": "Sklep z klimatyzatorami.",
+    "name": "Alfaco",
+    "opening_hours": "Mo-Fr 08:00-16:30",
+    "website": "https://www.alfaco.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 7069540082,
+  "lat": 53.0303093,
+  "lon": 16.4779002,
+  "tags": {
+    "addr:city": "Trzcianka",
+    "addr:city:simc": "0967162",
+    "addr:housenumber": "16a",
+    "addr:postcode": "64-980",
+    "addr:street": "Kazimierza Przerwy-Tetmajera",
+    "check_date:opening_hours": "2021-12-08",
+    "craft": "hvac",
+    "email": "pracownia@insbro.pl",
+    "name": "Insbro Pracownia Projektowa",
+    "opening_hours": "Mo-Fr 07:30-15:30",
+    "operator": "INSBRO",
+    "phone": "+48 793 036 363",
+    "website": "http://www.insbro.pl",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7082264288,
+  "lat": 52.1360333,
+  "lon": 21.2343137,
+  "tags": {
+    "craft": "hvac"
+  }
+},
+{
+  "type": "node",
+  "id": 7101571626,
+  "lat": 53.1164473,
+  "lon": 23.1160291,
+  "tags": {
+    "craft": "hvac",
+    "name": "VAPCold",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7112963644,
+  "lat": 51.0794350,
+  "lon": 17.0710464,
+  "tags": {
+    "craft": "hvac",
+    "name": "Centrowent",
+    "office": "company",
+    "website": "https://centrowent.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 7112963653,
+  "lat": 51.0786498,
+  "lon": 17.0721086,
+  "tags": {
+    "craft": "hvac",
+    "name": "Iglotech",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "shop": "wholesale",
+    "website": "https://iglotech.com.pl/kontakt/oddzialy/wroclaw"
+  }
+},
+{
+  "type": "node",
+  "id": 7154302872,
+  "lat": 53.1259905,
+  "lon": 20.3531526,
+  "tags": {
+    "craft": "hvac",
+    "name": "Technika grzewcza"
+  }
+},
+{
+  "type": "node",
+  "id": 7184712130,
+  "lat": 51.4013726,
+  "lon": 21.1450824,
+  "tags": {
+    "craft": "hvac",
+    "name": "Technika Grzewcza"
+  }
+},
+{
+  "type": "node",
+  "id": 7643030040,
+  "lat": 54.3469390,
+  "lon": 18.5313320,
+  "tags": {
+    "addr:city": "Gdańsk",
+    "addr:housenumber": "391A",
+    "addr:postcode": "80-125",
+    "addr:street": "Kartuska",
+    "craft": "hvac",
+    "description": "Producent najwyższej jakości urządzeń do sterowania systemów klimatyzacyjnych.",
+    "email": "ucs@ucs.com.pl",
+    "fax": "+48 58 352 64 15",
+    "name": "Uni Control System",
+    "operator": "Uni Control System Sp. z o. o.",
+    "phone": "+48 58 305 19 87",
+    "website": "http://www.ucs.com.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7667095037,
+  "lat": 51.3998295,
+  "lon": 21.1774598,
+  "tags": {
+    "craft": "hvac",
+    "name": "inTECH"
+  }
+},
+{
+  "type": "node",
+  "id": 7681357873,
+  "lat": 49.8504249,
+  "lon": 19.3453199,
+  "tags": {
+    "addr:city": "Andrychów",
+    "addr:housenumber": "1",
+    "addr:postcode": "34-120",
+    "addr:street": "Aleja Adama Wietrznego",
+    "craft": "hvac",
+    "email": "wentis@wentis.pl",
+    "heating:sales": "yes",
+    "name": "Wentis",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+48 33 875 39 61",
+    "ventilation:sales": "yes",
+    "website": "https://www.wentis.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7704299421,
+  "lat": 50.5646971,
+  "lon": 19.4488670,
+  "tags": {
+    "addr:city": "Włodowice",
+    "addr:housenumber": "113",
+    "addr:postcode": "42-421",
+    "addr:street": "Żarecka",
+    "alt_name": "FUHP Guard Śląskie Centrum Zabezpieczeń & Mediów",
+    "craft": "hvac",
+    "email": "biuro@sguard.pl",
+    "fax": "+48 34 315 61 58",
+    "name": "Guard",
+    "phone": "+48 605 944 146",
+    "website": "https://sguard.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7721135839,
+  "lat": 51.3973249,
+  "lon": 21.1624777,
+  "tags": {
+    "craft": "hvac",
+    "name": "Grzejniki"
+  }
+},
+{
+  "type": "node",
+  "id": 7724143235,
+  "lat": 51.3966287,
+  "lon": 21.1627950,
+  "tags": {
+    "craft": "hvac",
+    "name": "MK Kominy"
+  }
+},
+{
+  "type": "node",
+  "id": 7908513763,
+  "lat": 51.3952955,
+  "lon": 21.1315710,
+  "tags": {
+    "craft": "hvac",
+    "name": "Euroterm",
+    "phone": "+48 697 100 132",
+    "website": "http://euroterm-polska.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7941523710,
+  "lat": 49.6631518,
+  "lon": 19.2678295,
+  "tags": {
+    "craft": "hvac",
+    "name": "Gosma-Instalator"
+  }
+},
+{
+  "type": "node",
+  "id": 7997042498,
+  "lat": 50.3057965,
+  "lon": 18.7728343,
+  "tags": {
+    "check_date": "2023-10-07",
+    "craft": "hvac",
+    "name": "Duel",
+    "opening_hours": "Mo-Fr 08:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 8050465608,
+  "lat": 49.9955669,
+  "lon": 20.0638439,
+  "tags": {
+    "craft": "hvac",
+    "name": "AJP Centrum Wentylacji"
+  }
+},
+{
+  "type": "node",
+  "id": 8072938511,
+  "lat": 51.3902501,
+  "lon": 21.1405220,
+  "tags": {
+    "craft": "hvac",
+    "name": "SANRAD",
+    "website": "http://sanrad.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 8086662544,
+  "lat": 52.6096992,
+  "lon": 16.5843528,
+  "tags": {
+    "craft": "hvac",
+    "name": "ADR Group"
+  }
+},
+{
+  "type": "node",
+  "id": 8167951432,
+  "lat": 53.4382811,
+  "lon": 14.5330556,
+  "tags": {
+    "craft": "hvac",
+    "name": "Clima comfort",
+    "website": "https://clima-comfort.com.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 8188446176,
+  "lat": 50.2624605,
+  "lon": 19.0199567,
+  "tags": {
+    "check_date": "2024-04-20",
+    "craft": "hvac",
+    "name": "Termofol"
+  }
+},
+{
+  "type": "node",
+  "id": 8355130644,
+  "lat": 51.8752677,
+  "lon": 16.5684550,
+  "tags": {
+    "craft": "hvac",
+    "name": "Arkton"
+  }
+},
+{
+  "type": "node",
+  "id": 8416788711,
+  "lat": 53.3726439,
+  "lon": 14.5975986,
+  "tags": {
+    "craft": "hvac",
+    "email": "biuro@perfekt-instal.pl",
+    "full_name": "PERFEKT INSTAL Sp. z o.o. Sp. komandytowa",
+    "name": "Perfekt Instal",
+    "phone": "+48 884 813 358;+48 666 032 159",
+    "website": "http://perfekt-instal.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 8592481664,
+  "lat": 52.0933332,
+  "lon": 20.9959276,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klimatyzacje Fulmark",
+    "office": "company",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 8740138664,
+  "lat": 53.2295458,
+  "lon": 18.1387854,
+  "tags": {
+    "addr:city": "Borówno",
+    "addr:housenumber": "22",
+    "addr:postcode": "86-022",
+    "addr:street": "Szkolna",
+    "craft": "hvac",
+    "name": "Spirocent",
+    "phone": ";+48 60 573 4160;+48 53 077 0990;+48 60 912 9790;",
+    "shop": "hvac",
+    "website": "https://www.spirocent.pl/www/"
+  }
+},
+{
+  "type": "node",
+  "id": 8947787858,
+  "lat": 49.7363414,
+  "lon": 20.4019986,
+  "tags": {
+    "craft": "hvac"
+  }
+},
+{
+  "type": "node",
+  "id": 9055106845,
+  "lat": 50.2741250,
+  "lon": 18.8650368,
+  "tags": {
+    "craft": "hvac",
+    "name": "Dombud",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9083749028,
+  "lat": 54.3944351,
+  "lon": 18.3693305,
+  "tags": {
+    "craft": "hvac",
+    "email": "biuro@climatechnology.pl",
+    "name": "Clima Technology",
+    "office": "company",
+    "phone": "+48 58 660 33 78",
+    "website": "http://www.climatechnology.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9088567619,
+  "lat": 53.2177499,
+  "lon": 18.1211540,
+  "tags": {
+    "craft": "hvac",
+    "email": "biuro@remontykotlow.pl",
+    "name": "Remonty Kotłów Sp. z O. O. Sp. K.",
+    "website": "https://remontykotlow.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 9247115520,
+  "lat": 52.4131042,
+  "lon": 16.8182112,
+  "tags": {
+    "craft": "hvac",
+    "mobile": "+48 500 515 500; +48 500 595 500",
+    "name": "Klima-Raflik",
+    "opening_hours": "Mo-Fr 07:00-16:00",
+    "website": "e-klimatyzacja.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 9333942841,
+  "lat": 49.9872052,
+  "lon": 20.0691179,
+  "tags": {
+    "craft": "hvac"
+  }
+},
+{
+  "type": "node",
+  "id": 9376265502,
+  "lat": 49.6910826,
+  "lon": 21.7634112,
+  "tags": {
+    "craft": "hvac",
+    "name": "Tomex instalacje"
+  }
+},
+{
+  "type": "node",
+  "id": 9392971221,
+  "lat": 49.6921477,
+  "lon": 21.7503489,
+  "tags": {
+    "addr:city": "Krosno",
+    "addr:housenumber": "61",
+    "addr:postcode": "38-400",
+    "addr:street": "Kazimierza Pużaka",
+    "craft": "hvac",
+    "name": "Predom Klimatech"
+  }
+},
+{
+  "type": "node",
+  "id": 9401956604,
+  "lat": 49.7207620,
+  "lon": 21.7085459,
+  "tags": {
+    "addr:city": "Krosno",
+    "addr:housenumber": "37",
+    "addr:postcode": "38-400",
+    "addr:street": "Józefa Bema",
+    "craft": "hvac",
+    "name": "Profikomp"
+  }
+},
+{
+  "type": "node",
+  "id": 9464230643,
+  "lat": 50.3068960,
+  "lon": 18.7799030,
+  "tags": {
+    "craft": "hvac",
+    "level": "1",
+    "name": "Evolution Brand",
+    "opening_hours": "Mo-Fr 08:00-16:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9472479811,
+  "lat": 52.3941285,
+  "lon": 16.7974094,
+  "tags": {
+    "craft": "hvac",
+    "name": "Eureka! wentylacja dla domu",
+    "opening_hours": "Mo-Fr 8:00-16:00"
+  }
+},
+{
+  "type": "node",
+  "id": 9477183219,
+  "lat": 50.2958665,
+  "lon": 18.8045338,
+  "tags": {
+    "craft": "hvac",
+    "name": "Inter-Klima",
+    "phone": "+48322749595",
+    "website": "https://www.inter-klima.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9497558131,
+  "lat": 49.7045607,
+  "lon": 21.7280007,
+  "tags": {
+    "craft": "hvac",
+    "level": "1",
+    "name": "ACC Store"
+  }
+},
+{
+  "type": "node",
+  "id": 9522549096,
+  "lat": 49.8364069,
+  "lon": 19.2407991,
+  "tags": {
+    "craft": "hvac",
+    "name": "Elando"
+  }
+},
+{
+  "type": "node",
+  "id": 9596895985,
+  "lat": 50.5301497,
+  "lon": 22.7167545,
+  "tags": {
+    "check_date:opening_hours": "2025-03-28",
+    "craft": "hvac",
+    "name": "Kusz.pl",
+    "office": "insurance",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "phone": "+48 84 686 23 17;+48 606 904 503",
+    "website": "http://kusz.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 9702276356,
+  "lat": 50.0686423,
+  "lon": 19.9109239,
+  "tags": {
+    "check_date": "2023-08-22",
+    "contact:website": "http://www.mekanet.pl/",
+    "craft": "hvac",
+    "name": "Mekanet"
+  }
+},
+{
+  "type": "node",
+  "id": 9710881377,
+  "lat": 51.6592128,
+  "lon": 19.3376648,
+  "tags": {
+    "addr:housenumber": "18",
+    "addr:street": "Wysoka",
+    "craft": "hvac",
+    "name": "Centrum Technik Grzewczych C.T.G.",
+    "website": "https://centrumtechnikgrzewczych.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9791409804,
+  "lat": 50.8010921,
+  "lon": 23.8888186,
+  "tags": {
+    "addr:city": "Hrubieszów",
+    "addr:housenumber": "13",
+    "addr:postcode": "22-500",
+    "addr:street": "Zamojska",
+    "craft": "hvac",
+    "name": "Compakt",
+    "phone": "+48 84 697 09 41",
+    "website": "https://www.compakt.hrubieszow.info/"
+  }
+},
+{
+  "type": "node",
+  "id": 9843372771,
+  "lat": 52.3382136,
+  "lon": 20.8675239,
+  "tags": {
+    "craft": "hvac",
+    "name": "Krisko-Went"
+  }
+},
+{
+  "type": "node",
+  "id": 9939532250,
+  "lat": 50.4538260,
+  "lon": 23.4159953,
+  "tags": {
+    "addr:city": "Tomaszów Lubelski",
+    "addr:housenumber": "9",
+    "addr:postcode": "22-600",
+    "addr:street": "Józefa Piłsudskiego",
+    "check_date": "2024-11-30",
+    "craft": "hvac",
+    "fax": "+48 84 664 43 29",
+    "internet_access": "no",
+    "level": "1",
+    "name": "Pixel",
+    "phone": "+48 604 275 459; +48 602 504 667",
+    "website": "https://www.sap-pixel.net/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9939532260,
+  "lat": 50.4586069,
+  "lon": 23.4200240,
+  "tags": {
+    "addr:city": "Tomaszów Lubelski",
+    "addr:housenumber": "1",
+    "addr:postcode": "22-600",
+    "addr:street": "Jana Długosza",
+    "craft": "hvac",
+    "email": "biuro@bemar66.pl",
+    "name": "Bemar",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "phone": "+48 84 664 65 06;+48 512 825 678",
+    "shop": "bathroom_furnishing",
+    "website": "https://www.bemar66.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9939532261,
+  "lat": 50.4585779,
+  "lon": 23.4199864,
+  "tags": {
+    "addr:city": "Tomaszów Lubelski",
+    "addr:housenumber": "1",
+    "addr:postcode": "22-600",
+    "addr:street": "Jana Długosza",
+    "craft": "hvac",
+    "email": "biuro@bemar66.pl",
+    "name": "Bemar",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "phone": "+48 84 664 65 06;+48 512 825 678",
+    "shop": "fireplace",
+    "website": "https://www.bemar66.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9939532262,
+  "lat": 50.4585352,
+  "lon": 23.4199730,
+  "tags": {
+    "addr:city": "Tomaszów Lubelski",
+    "addr:housenumber": "1",
+    "addr:postcode": "22-600",
+    "addr:street": "Jana Długosza",
+    "craft": "hvac",
+    "email": "biuro@bemar66.pl",
+    "name": "Bemar",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "phone": "+48 84 664 65 06;+48 512 825 678",
+    "website": "https://www.bemar66.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9966273204,
+  "lat": 54.3981567,
+  "lon": 18.5781857,
+  "tags": {
+    "craft": "hvac",
+    "name": "Abex"
+  }
+},
+{
+  "type": "node",
+  "id": 10047275391,
+  "lat": 51.3012914,
+  "lon": 16.9166011,
+  "tags": {
+    "craft": "hvac",
+    "name": "Domart Bis - Armatura"
+  }
+},
+{
+  "type": "node",
+  "id": 10114720082,
+  "lat": 50.5225218,
+  "lon": 22.6944780,
+  "tags": {
+    "craft": "hvac",
+    "email": "biuro@investenergy.com.pl",
+    "level": "1",
+    "mobile": "+48 501 541 463; +48 506 706 045",
+    "name": "investenergy",
+    "website": "https://investenergy.com.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 10228161915,
+  "lat": 50.2369354,
+  "lon": 21.7545475,
+  "tags": {
+    "craft": "hvac",
+    "email": "drewmet@kotlydrewmet.pl",
+    "fax": "+48 17 228 04 67",
+    "name": "Drew-Met",
+    "office": "company",
+    "phone": "+48 17 228 04 67",
+    "website": "https://kotlydrewmet.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10234785695,
+  "lat": 50.0492387,
+  "lon": 22.0002989,
+  "tags": {
+    "addr:city": "Rzeszów",
+    "addr:housenumber": "13",
+    "addr:postcode": "35-241",
+    "addr:street": "Lubelska",
+    "craft": "hvac",
+    "email": "darek.74@vp.pl",
+    "name": "COLD System",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "phone": "+48 665 930 716",
+    "website": "https://www.coldsystem.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10247174672,
+  "lat": 51.1928852,
+  "lon": 20.4064504,
+  "tags": {
+    "addr:city": "Końskie",
+    "addr:housenumber": "13",
+    "addr:postcode": "26-200",
+    "addr:street": "Targowa",
+    "craft": "hvac",
+    "email": "weldbud.biuro@gmail.com",
+    "name": "WB Klimatyzacja",
+    "phone": "+48 607 603 598",
+    "website": "https://www.facebook.com/wbklima/"
+  }
+},
+{
+  "type": "node",
+  "id": 10273461312,
+  "lat": 52.2365741,
+  "lon": 21.1328447,
+  "tags": {
+    "addr:city": "Warszawa",
+    "addr:housenumber": "31Y",
+    "addr:postcode": "04-205",
+    "addr:street": "Naddnieprzańska",
+    "check_date": "2023-12-31",
+    "craft": "hvac",
+    "name": "Heat Plus Polska",
+    "official_name": "Heat Plus Polska Sp. z o.o.",
+    "opening_hours": "Mo-Fr 10:00-17:00",
+    "phone": "+48 579 526 009",
+    "website": "https://heat-plus.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10287546503,
+  "lat": 49.6981291,
+  "lon": 21.7732700,
+  "tags": {
+    "craft": "hvac",
+    "full_name": "\"Karpacom\" Marek Szustakowski Instalacja i serwis ogrzewania"
+  }
+},
+{
+  "type": "node",
+  "id": 10303169685,
+  "lat": 52.4058901,
+  "lon": 16.8233774,
+  "tags": {
+    "craft": "hvac",
+    "mobile": "+48 519 181 901",
+    "name": "Klimatyzacja Montaż i serwis"
+  }
+},
+{
+  "type": "node",
+  "id": 10557742598,
+  "lat": 52.3532652,
+  "lon": 14.5598826,
+  "tags": {
+    "craft": "hvac",
+    "name": "Artis Group Klimatyzacje",
+    "opening_hours": "Mo-Fr 10:00-17:00; Sa 9:00-13:00",
+    "phone": "+48733009100"
+  }
+},
+{
+  "type": "node",
+  "id": 10605950373,
+  "lat": 50.0381808,
+  "lon": 22.0262356,
+  "tags": {
+    "addr:city": "Rzeszów",
+    "addr:housenumber": "15",
+    "addr:postcode": "35-301",
+    "addr:street": "Lwowska",
+    "check_date": "2025-09-21",
+    "craft": "hvac",
+    "name": "BS Klima",
+    "office": "company",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa 08:00-13:00",
+    "phone": "+48 660 436 210;+48 17 852 94 70",
+    "website": "https://www.bsklima.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10739791535,
+  "lat": 53.1478122,
+  "lon": 14.8948410,
+  "tags": {
+    "addr:city": "Pyrzyce",
+    "addr:postcode": "74-200",
+    "addr:street": "Jana Pawła II",
+    "craft": "hvac",
+    "name": "WULMAR",
+    "operator": "Marcin Głowacki"
+  }
+},
+{
+  "type": "node",
+  "id": 10758768389,
+  "lat": 53.6945220,
+  "lon": 17.5596516,
+  "tags": {
+    "addr:city": "Chojnice",
+    "addr:housenumber": "17",
+    "addr:postcode": "89-600",
+    "addr:street": "Staroszkolna",
+    "craft": "hvac",
+    "name": "Stepkom",
+    "phone": "+48 606 309 583",
+    "website": "https://www.stepkom.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 10775115180,
+  "lat": 50.3998405,
+  "lon": 19.0848245,
+  "tags": {
+    "addr:city": "Góra Siewierska",
+    "addr:housenumber": "2",
+    "addr:postcode": "42-575",
+    "addr:street": "Leśna",
+    "craft": "hvac",
+    "description": "Wykonawca instalacji grzewczych, klimatyzacyjnych i wentylacyjnych.",
+    "name": "DAR-KLIMA",
+    "opening_hours": "Pon-Pt 09:00-20:00, Sob-Niedz 10:00-17:00",
+    "operator": "Dariusz Konderak",
+    "phone": "32 363 31 03 / 501 130  / 502 229 321",
+    "ref:vatin": "6251196191",
+    "source": "https://dar-klima.business.site/;https://aleo.com/int/company/konderak-dariusz-dar-klima-bedzin",
+    "start_date": "2003-04-10",
+    "website": "https://dar-klima.business.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 10776614744,
+  "lat": 51.6687068,
+  "lon": 16.0777032,
+  "tags": {
+    "craft": "hvac",
+    "name": "MULTI-SERWIS",
+    "phone": "+48 696 994 994",
+    "website": "http://multi-serwis.org/index.php"
+  }
+},
+{
+  "type": "node",
+  "id": 10781770744,
+  "lat": 50.1053799,
+  "lon": 20.8966026,
+  "tags": {
+    "craft": "hvac",
+    "email": "PresSto@PresSto.info",
+    "name": "PresSto Sp. z o.o.",
+    "operator": "PresSto Sp. z o.o.",
+    "website": "www.PresSto.info"
+  }
+},
+{
+  "type": "node",
+  "id": 10829579014,
+  "lat": 53.0311967,
+  "lon": 18.6419234,
+  "tags": {
+    "craft": "hvac",
+    "name": "Airmasters"
+  }
+},
+{
+  "type": "node",
+  "id": 10852493373,
+  "lat": 50.2948341,
+  "lon": 18.6757723,
+  "tags": {
+    "craft": "hvac",
+    "name": "Inko Energu"
+  }
+},
+{
+  "type": "node",
+  "id": 10946716221,
+  "lat": 50.3035727,
+  "lon": 18.8514819,
+  "tags": {
+    "craft": "hvac",
+    "name": "Kaminstal",
+    "phone": "+48 531238111"
+  }
+},
+{
+  "type": "node",
+  "id": 11027914299,
+  "lat": 53.0148598,
+  "lon": 18.6112525,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klimar"
+  }
+},
+{
+  "type": "node",
+  "id": 11065737272,
+  "lat": 50.9515944,
+  "lon": 21.3817991,
+  "tags": {
+    "addr:city": "Ostrowiec Świętokrzyski",
+    "addr:housenumber": "91",
+    "addr:postcode": "27-400",
+    "addr:street": "Iłżecka",
+    "craft": "hvac",
+    "description": "Systemy instalacyjne, Technika grzewcza",
+    "name": "JAKO"
+  }
+},
+{
+  "type": "node",
+  "id": 11075229072,
+  "lat": 51.6487545,
+  "lon": 17.8139973,
+  "tags": {
+    "addr:city": "Ostrów Wielkopolski",
+    "addr:housenumber": "10/7",
+    "addr:postcode": "63-400",
+    "addr:street": "Kolejowa",
+    "craft": "hvac",
+    "name": "P.H.U. ToNy",
+    "operator": "Tomasz Walczak",
+    "phone": "+48 572 275 595",
+    "website": "https://phutony.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11079132598,
+  "lat": 52.2047454,
+  "lon": 18.6352921,
+  "tags": {
+    "craft": "hvac",
+    "mobile": "+48 781 942 252",
+    "name": "Senegis",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "website": "https://senegis.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11165003941,
+  "lat": 50.0559628,
+  "lon": 19.9573238,
+  "tags": {
+    "craft": "hvac",
+    "email": "biuro@wojewodzki.com.pl",
+    "name": "Wojewódzki Instalacje",
+    "website": "https://wojewodzki.com.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11165638817,
+  "lat": 50.0845928,
+  "lon": 19.9281489,
+  "tags": {
+    "craft": "hvac",
+    "name": "Wojewódzki Instalacje"
+  }
+},
+{
+  "type": "node",
+  "id": 11242191281,
+  "lat": 53.0396894,
+  "lon": 18.6246618,
+  "tags": {
+    "craft": "hvac",
+    "name": "Hot System"
+  }
+},
+{
+  "type": "node",
+  "id": 11242191298,
+  "lat": 53.0407478,
+  "lon": 18.6259154,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klimazbyt"
+  }
+},
+{
+  "type": "node",
+  "id": 11242260334,
+  "lat": 53.0168477,
+  "lon": 18.6804384,
+  "tags": {
+    "craft": "hvac",
+    "name": "Chłód-Klim"
+  }
+},
+{
+  "type": "node",
+  "id": 11279464793,
+  "lat": 53.1147490,
+  "lon": 16.7729711,
+  "tags": {
+    "craft": "hvac",
+    "email": "kontakt@asta-energy.pl",
+    "name": "Asta-Energy",
+    "phone": "+4867 350 90 90",
+    "website": "https://www.asta-energy.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11372186911,
+  "lat": 52.3997747,
+  "lon": 16.8991634,
+  "tags": {
+    "craft": "hvac",
+    "description": "Klimatyzacja, wentylacja, rekuperacja",
+    "name": "Perfect Home&Office",
+    "opening_hours": "Mo-Fr 11:00-17:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11439908832,
+  "lat": 52.2187420,
+  "lon": 20.2367177,
+  "tags": {
+    "craft": "hvac",
+    "name": "Frigus Instalacje"
+  }
+},
+{
+  "type": "node",
+  "id": 11503604487,
+  "lat": 50.2847077,
+  "lon": 19.5721858,
+  "tags": {
+    "addr:city": "Olkusz",
+    "addr:housenumber": "11a",
+    "addr:postcode": "32-300",
+    "addr:street": "Miła",
+    "craft": "hvac",
+    "name": "AMIBUD",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "phone": "+48 606 434 070;+48 606 511 931",
+    "website": "https://www.amibud.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11515089094,
+  "lat": 52.8041593,
+  "lon": 21.8967186,
+  "tags": {
+    "addr:city": "Ostrów Mazowiecka",
+    "addr:door": "5",
+    "addr:housenumber": "2",
+    "addr:postcode": "07-300",
+    "addr:street": "Jana Kilińskiego",
+    "craft": "hvac",
+    "name": "Klimelektro klimatyzacja"
+  }
+},
+{
+  "type": "node",
+  "id": 11534988291,
+  "lat": 52.4322534,
+  "lon": 16.8199894,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klima plus",
+    "opening_hours": "Mo-Fr 7:00-15:00",
+    "phone": "+48 61 679 11 22",
+    "website": "https://klima.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 11611997965,
+  "lat": 50.2631609,
+  "lon": 18.8615552,
+  "tags": {
+    "addr:city": "Ruda Śląska",
+    "addr:housenumber": "18",
+    "addr:postcode": "41-710",
+    "addr:street": "Ryszarda Magdziorza",
+    "craft": "hvac",
+    "name": "Chłodnictwo-Klimatyzacja Roman Brandyk",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "phone": "+48 508 068 910"
+  }
+},
+{
+  "type": "node",
+  "id": 11725287455,
+  "lat": 51.0610727,
+  "lon": 16.9925503,
+  "tags": {
+    "craft": "hvac",
+    "name": "Viessmann",
+    "office": "company",
+    "official_name": "Viessmann Sp. z o.o.",
+    "website": "https://viessmann.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 11736807221,
+  "lat": 50.2775397,
+  "lon": 18.8627750,
+  "tags": {
+    "check_date": "2024-03-16",
+    "craft": "hvac",
+    "name": "Vir-Pral",
+    "opening_hours": "Mo-Fr 08:00-16:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11872598011,
+  "lat": 52.2303228,
+  "lon": 19.3604297,
+  "tags": {
+    "craft": "hvac",
+    "name": "Instal-System"
+  }
+},
+{
+  "type": "node",
+  "id": 11904452126,
+  "lat": 49.6891595,
+  "lon": 21.7422829,
+  "tags": {
+    "craft": "hvac",
+    "door": "30",
+    "name": "Cooling System",
+    "website": "https://www.cooling-system.pl/kontakt/"
+  }
+},
+{
+  "type": "node",
+  "id": 11947659599,
+  "lat": 52.2143945,
+  "lon": 21.0578777,
+  "tags": {
+    "addr:city": "Warszawa",
+    "addr:door": "101",
+    "addr:housenumber": "24/26",
+    "addr:postcode": "00-716",
+    "addr:street": "Bartycka",
+    "contact:instagram": "https://www.instagram.com/climatdevelopment/",
+    "craft": "hvac",
+    "email": "biuro@climatdevelopment.com",
+    "name": "Climat Development Sp. z o.o.",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+48 571 258 232",
+    "ref:vatin": "PL9522238722",
+    "shop": "hvac",
+    "website": "https://www.climatdevelopment.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11978641326,
+  "lat": 54.3348472,
+  "lon": 18.2005674,
+  "tags": {
+    "craft": "hvac",
+    "name": "Pompy ciepła Klimatyzatory"
+  }
+},
+{
+  "type": "node",
+  "id": 12039916665,
+  "lat": 52.2344804,
+  "lon": 20.2495749,
+  "tags": {
+    "craft": "hvac",
+    "name": "AIR-KLIMA"
+  }
+},
+{
+  "type": "node",
+  "id": 12127694844,
+  "lat": 50.8435743,
+  "lon": 16.4801659,
+  "tags": {
+    "craft": "hvac",
+    "name": "JKB"
+  }
+},
+{
+  "type": "node",
+  "id": 12140562157,
+  "lat": 50.4342421,
+  "lon": 16.2369557,
+  "tags": {
+    "check_date": "2024-08-27",
+    "craft": "hvac",
+    "name": "Technika Grzewcza Vinsar"
+  }
+},
+{
+  "type": "node",
+  "id": 12165922166,
+  "lat": 50.0232349,
+  "lon": 19.9804015,
+  "tags": {
+    "check_date": "2024-09-09",
+    "craft": "hvac",
+    "name": "Mikosz"
+  }
+},
+{
+  "type": "node",
+  "id": 12169801482,
+  "lat": 49.9419482,
+  "lon": 18.5627398,
+  "tags": {
+    "craft": "hvac",
+    "name": "Klimat"
+  }
+},
+{
+  "type": "node",
+  "id": 12209373407,
+  "lat": 52.3494247,
+  "lon": 16.5116295,
+  "tags": {
+    "craft": "hvac",
+    "name": "EFLI technika grzewcza"
+  }
+},
+{
+  "type": "node",
+  "id": 12258729351,
+  "lat": 52.3959527,
+  "lon": 20.9358089,
+  "tags": {
+    "addr:city": "Legionowo",
+    "addr:country": "PL",
+    "addr:housenumber": "37/142",
+    "addr:postcode": "05-120",
+    "addr:street": "Juliusza Słowackiego",
+    "craft": "hvac",
+    "email": "info@ever-flow.pl",
+    "facebook": "https://www.facebook.com/everflowhvac",
+    "name": "everflow",
+    "opening_hours": "Mo-Fr 08:00-16:00; Sa-Su off",
+    "phone": "+48500008308",
+    "website": "https://ever-flow.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12261067142,
+  "lat": 50.0412066,
+  "lon": 19.9776387,
+  "tags": {
+    "check_date": "2024-10-18",
+    "craft": "hvac",
+    "name": "Viaker"
+  }
+},
+{
+  "type": "node",
+  "id": 12309247735,
+  "lat": 52.8068624,
+  "lon": 17.1834433,
+  "tags": {
+    "craft": "hvac",
+    "name": "Eldom klima serwis",
+    "shop": "hvac"
+  }
+},
+{
+  "type": "node",
+  "id": 12334762822,
+  "lat": 52.3019691,
+  "lon": 16.1256601,
+  "tags": {
+    "craft": "hvac",
+    "fax": "+48614424884",
+    "name": "Zakład instalacji sanitarnej C.O. i gaz",
+    "operator": "Stefan Lonenc",
+    "phone": "+48602743807"
+  }
+},
+{
+  "type": "node",
+  "id": 12337291713,
+  "lat": 52.3662155,
+  "lon": 16.8797582,
+  "tags": {
+    "addr:city": "Poznań",
+    "addr:housenumber": "115",
+    "addr:postcode": "61-409",
+    "addr:street": "Joachima Lelewela",
+    "craft": "hvac",
+    "email": "biuro@pgstech.pl",
+    "name": "PGSTECH",
+    "phone": "+48603050400",
+    "website": "http://www.pgstech.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12337551415,
+  "lat": 50.2697908,
+  "lon": 18.8860752,
+  "tags": {
+    "check_date": "2024-11-13",
+    "craft": "hvac",
+    "name": "Fricold"
+  }
+},
+{
+  "type": "node",
+  "id": 12340820421,
+  "lat": 50.0569577,
+  "lon": 20.0365409,
+  "tags": {
+    "craft": "hvac",
+    "name": "Kilimasoft",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 12479442713,
+  "lat": 49.4615803,
+  "lon": 19.9949721,
+  "tags": {
+    "addr:city": "Nowy Targ",
+    "addr:housenumber": "24",
+    "addr:postcode": "34-400",
+    "addr:street": "Szewska",
+    "craft": "hvac",
+    "name": "WA Klima",
+    "phone": "+48 692 429 168",
+    "website": "https://waklima.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12486918444,
+  "lat": 52.9756260,
+  "lon": 18.6775874,
+  "tags": {
+    "craft": "hvac",
+    "name": "iKupione.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 12552274340,
+  "lat": 52.9138092,
+  "lon": 16.1858132,
+  "tags": {
+    "craft": "hvac",
+    "name": "Termico technika grzewcza"
+  }
+},
+{
+  "type": "node",
+  "id": 12556770982,
+  "lat": 54.4016190,
+  "lon": 18.5620960,
+  "tags": {
+    "check_date": "2025-07-04",
+    "craft": "hvac",
+    "name": "Klima Invest"
+  }
+},
+{
+  "type": "node",
+  "id": 12587797021,
+  "lat": 53.1367376,
+  "lon": 18.5408611,
+  "tags": {
+    "craft": "hvac",
+    "name": "Hydroline - pompy ciepła"
+  }
+},
+{
+  "type": "node",
+  "id": 12691167359,
+  "lat": 52.2647852,
+  "lon": 21.0386786,
+  "tags": {
+    "addr:housenumber": "54",
+    "addr:street": "11 Listopada",
+    "check_date": "2025-03-22",
+    "craft": "hvac",
+    "name": "TRuD Service"
+  }
+},
+{
+  "type": "node",
+  "id": 12717054301,
+  "lat": 51.2077780,
+  "lon": 22.5559413,
+  "tags": {
+    "addr:housenumber": "23/89a",
+    "addr:postcode": "20-468",
+    "addr:street": "Energetyków",
+    "craft": "hvac",
+    "name": "COOLBIX serwis AGD i Klimatyzacja",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "phone": "+48 696 440 070",
+    "website": "https://www.coolbix.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12752689654,
+  "lat": 49.5540140,
+  "lon": 21.6838011,
+  "tags": {
+    "check_date": "2026-03-08",
+    "craft": "hvac",
+    "name": "Instalator",
+    "website": "https://www.instalator-rymanow.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12762621988,
+  "lat": 50.0548104,
+  "lon": 19.9602509,
+  "tags": {
+    "check_date": "2025-04-17",
+    "craft": "hvac",
+    "name": "Wienkra"
+  }
+},
+{
+  "type": "node",
+  "id": 12786301364,
+  "lat": 52.1947517,
+  "lon": 20.8742486,
+  "tags": {
+    "craft": "hvac",
+    "name": "PCP"
+  }
+},
+{
+  "type": "node",
+  "id": 12801954168,
+  "lat": 50.5216156,
+  "lon": 22.1239920,
+  "tags": {
+    "check_date": "2025-05-01",
+    "contact:website": "https://www.agrotech.pl",
+    "craft": "hvac",
+    "email": "agrotech@agrotech.pl",
+    "name": "Agro-Tech",
+    "opening_hours": "Mo-Fr 07:00-17:00; Sa 07:00-15:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12846857183,
+  "lat": 50.1846353,
+  "lon": 18.7945822,
+  "tags": {
+    "addr:city": "Mikołów",
+    "addr:housenumber": "42a",
+    "addr:postcode": "43-190",
+    "addr:street": "Księdza Franciszka Górka",
+    "craft": "hvac",
+    "name": "Clim Tech Instal s.c."
+  }
+},
+{
+  "type": "node",
+  "id": 12884035304,
+  "lat": 51.0605020,
+  "lon": 16.9537484,
+  "tags": {
+    "craft": "hvac",
+    "level": "0",
+    "name": "AK klima"
+  }
+},
+{
+  "type": "node",
+  "id": 12919559439,
+  "lat": 50.5181674,
+  "lon": 22.1448683,
+  "tags": {
+    "check_date": "2025-06-16",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100076263609312",
+    "contact:phone": "+48 884 296 245",
+    "contact:website": "https://www.domeco-oze.pl",
+    "craft": "hvac",
+    "email": "domeco.biuro@gmail.com",
+    "level": "0",
+    "name": "Domeco",
+    "opening_hours": "Mo-Fr 08:00-16:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12921625182,
+  "lat": 54.2495504,
+  "lon": 20.8192472,
+  "tags": {
+    "craft": "hvac",
+    "name": "Bucki"
+  }
+},
+{
+  "type": "node",
+  "id": 12945053356,
+  "lat": 51.1179191,
+  "lon": 17.0108709,
+  "tags": {
+    "check_date": "2025-06-22",
+    "craft": "hvac",
+    "name": "Caloric",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 10:00-14:00; Su off",
+    "phone": "+48 733 344 420",
+    "website": "https://caloric.pl",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12965966233,
+  "lat": 51.4240191,
+  "lon": 22.6373955,
+  "tags": {
+    "addr:housenumber": "144",
+    "addr:place": "Łucka-Kolonia",
+    "addr:postcode": "21-100",
+    "craft": "hvac",
+    "email": "lubartow.buderus@gmail.com",
+    "mobile": "+48 517 577 447",
+    "name": "Wodgaz",
+    "phone": "+48 81 855 58 76",
+    "website": "https://wod-gaz.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12971133883,
+  "lat": 53.1308235,
+  "lon": 17.9482041,
+  "tags": {
+    "craft": "hvac",
+    "email": "serwis@pawal.pl",
+    "mobile": "+48 511 069 759; +48 880 167 410; +48 604 118 223; +48 796 126 565",
+    "name": "PAWAL",
+    "website": "https://pawal.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 12982905343,
+  "lat": 49.8838054,
+  "lon": 20.0848258,
+  "tags": {
+    "check_date": "2025-07-06",
+    "craft": "hvac"
+  }
+},
+{
+  "type": "node",
+  "id": 13082274079,
+  "lat": 52.6000588,
+  "lon": 16.5987077,
+  "tags": {
+    "craft": "hvac",
+    "name": "Serwis kotłów gazowych"
+  }
+},
+{
+  "type": "node",
+  "id": 13095064385,
+  "lat": 49.7490480,
+  "lon": 21.8142121,
+  "tags": {
+    "craft": "hvac",
+    "name": "Gryph",
+    "website": "https://gryph.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13100135966,
+  "lat": 54.2583777,
+  "lon": 20.8071269,
+  "tags": {
+    "craft": "hvac",
+    "name": "Pro-Bart"
+  }
+},
+{
+  "type": "node",
+  "id": 13190912682,
+  "lat": 54.2681339,
+  "lon": 18.6511868,
+  "tags": {
+    "addr:city": "Pruszcz Gdański",
+    "addr:housenumber": "49L/7",
+    "addr:postcode": "83-000",
+    "addr:street": "Piastowska",
+    "craft": "hvac",
+    "name": "Wentica",
+    "operator": "Tomasz Manowski",
+    "phone": "+48 668 489 419",
+    "website": "http://wentica.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13233959562,
+  "lat": 50.6837406,
+  "lon": 21.7579070,
+  "tags": {
+    "craft": "hvac",
+    "name": "ECO-SYSTEMS Klimatyzacja, Chłodnictwo"
+  }
+},
+{
+  "type": "node",
+  "id": 13334011311,
+  "lat": 52.1829938,
+  "lon": 20.9932217,
+  "tags": {
+    "addr:city": "Warszawa",
+    "addr:housenumber": "47/10",
+    "addr:postcode": "02-672",
+    "addr:street": "Domaniewska",
+    "craft": "hvac",
+    "name": "Power System",
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "phone": "+48 698 632 585",
+    "website": "https://powersystem-klimatyzacja.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13337168060,
+  "lat": 52.3873136,
+  "lon": 20.9287455,
+  "tags": {
+    "addr:city": "Legionowo",
+    "addr:postcode": "05-120",
+    "addr:street": "Polankowa",
+    "air_conditioning": "yes",
+    "craft": "hvac",
+    "email": "biuro@prome.pl",
+    "name": "Prhome",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "operator": "Piotr Gawroński",
+    "phone": "+48600783738",
+    "website": "https://www.prhome.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13362267584,
+  "lat": 50.1053994,
+  "lon": 20.8967636,
+  "tags": {
+    "check_date": "2022-12-15",
+    "craft": "hvac",
+    "name": "EuroTerm Sp. z o.o.",
+    "phone": "+48 14 645 87 10",
+    "website": "www.Euroterm.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 13414424512,
+  "lat": 51.6047286,
+  "lon": 18.8494963,
+  "tags": {
+    "addr:city:simc": "0713674",
+    "addr:housenumber": "6",
+    "addr:place": "Stawiszcze",
+    "addr:postcode": "98-200",
+    "craft": "hvac",
+    "name": "Buderus"
+  }
+},
+{
+  "type": "node",
+  "id": 13415607772,
+  "lat": 53.1275401,
+  "lon": 23.2554857,
+  "tags": {
+    "addr:city": "Grabówka",
+    "addr:housenumber": "10",
+    "addr:postcode": "15-523",
+    "addr:street": "Modrzewiowa",
+    "craft": "hvac",
+    "name": "HotTerm"
+  }
+},
+{
+  "type": "node",
+  "id": 13510040071,
+  "lat": 51.2671581,
+  "lon": 18.0020478,
+  "tags": {
+    "addr:city": "Baranów",
+    "addr:housenumber": "1",
+    "addr:postcode": "63-604",
+    "addr:street": "Rynek",
+    "craft": "hvac",
+    "name": "Voltero - | Fotowoltaika | Pompy ciepła | Klimatyzacje |",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "phone": "+48 601743766",
+    "website": "https://voltero.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13512749972,
+  "lat": 54.6030126,
+  "lon": 18.3042703,
+  "tags": {
+    "craft": "hvac",
+    "name": "Manufaktura Kominków Jotul Studio"
+  }
+},
+{
+  "type": "node",
+  "id": 13638108477,
+  "lat": 53.3987735,
+  "lon": 14.5313781,
+  "tags": {
+    "addr:city": "Szczecin",
+    "addr:housenumber": "55/57",
+    "addr:postcode": "70-010",
+    "addr:street": "Szczawiowa",
+    "craft": "hvac",
+    "name": "Klimatyzacja Szczecin",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "phone": "+48 533 900 425",
+    "website": "https://klimatyzacjaszczecin.com.pl"
+  }
+},
+{
+  "type": "node",
+  "id": 13661768277,
+  "lat": 50.0362892,
+  "lon": 19.9785122,
+  "tags": {
+    "addr:city": "Kraków",
+    "addr:housenumber": "54",
+    "addr:postcode": "30-719",
+    "addr:street": "Gromadzka",
+    "craft": "hvac",
+    "name": "Heat Decor - Ogrzewanie Podczerwienią",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Firma",
+    "phone": "+48 12 357 61 34",
+    "website": "https://heatdecor.com"
+  }
+},
+{
+  "type": "node",
+  "id": 13669570258,
+  "lat": 52.1975731,
+  "lon": 18.2408591,
+  "tags": {
+    "addr:city": "Konin",
+    "addr:housenumber": "1",
+    "addr:postcode": "62-500",
+    "addr:street": "Eugeniusza Kwiatkowskiego",
+    "craft": "hvac",
+    "name": "Eko-Wat",
+    "phone": "+48 63 240 65 15"
+  }
+},
+{
+  "type": "node",
+  "id": 13685926204,
+  "lat": 50.0612967,
+  "lon": 21.3607733,
+  "tags": {
+    "addr:housenumber": "295K",
+    "addr:postcode": "39/218",
+    "addr:street": "Straszęcin",
+    "craft": "hvac",
+    "name": "VENTIGROS"
+  }
+},
+{
+  "type": "node",
+  "id": 13685938201,
+  "lat": 50.0763659,
+  "lon": 21.3972680,
+  "tags": {
+    "addr:housenumber": "195C",
+    "addr:postcode": "39-204",
+    "addr:street": "Żyraków",
+    "craft": "hvac",
+    "name": "DEFROST"
+  }
+},
+{
+  "type": "node",
+  "id": 13726132811,
+  "lat": 51.8084814,
+  "lon": 16.3218340,
+  "tags": {
+    "craft": "hvac",
+    "name": "Systemy Grzewcze"
+  }
+},
+{
+  "type": "node",
+  "id": 13727168004,
+  "lat": 50.2867923,
+  "lon": 21.4179374,
+  "tags": {
+    "check_date": "2026-04-12",
+    "check_date:opening_hours": "2026-04-12",
+    "craft": "hvac",
+    "description:pl": "Specjalistyczny sklep z systemami ogrzewania podłogowego",
+    "name": "Termofor",
+    "opening_hours": "Mo-Th 09:00-15:00; Fr 09:00-14:00",
+    "website": "https://vendacenter.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13763239474,
+  "lat": 52.3076608,
+  "lon": 18.2615714,
+  "tags": {
+    "addr:city": "Konin",
+    "addr:housenumber": "7",
+    "addr:postcode": "62-510",
+    "addr:street": "Ślesińska",
+    "craft": "hvac",
+    "name": "ArtDOM",
+    "website": "https://artdomserwis.pl/"
+  }
+},
+{
+  "type": "node",
+  "id": 13788027592,
+  "lat": 50.0353587,
+  "lon": 20.9884222,
+  "tags": {
+    "addr:city": "Tarnów",
+    "addr:housenumber": "14c",
+    "addr:postcode": "33-100",
+    "addr:street": "Spokojna",
+    "craft": "hvac",
+    "name": "Termix Instal"
+  }
+},
+{
+  "type": "node",
+  "id": 13838884566,
+  "lat": 52.5986978,
+  "lon": 16.5911094,
+  "tags": {
+    "craft": "hvac",
+    "name": "KPS Klima Perfekt Servis"
+  }
+},
+{
+  "type": "node",
+  "id": 13839242682,
+  "lat": 52.1998732,
+  "lon": 21.1302377,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Masłowiecka",
+    "check_date": "2026-05-17",
+    "craft": "hvac",
+    "name": "Best Klim"
+  }
+}
+
+  ]
+}

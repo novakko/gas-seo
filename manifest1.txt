@@ -1,0 +1,12 @@
+https://panoramafirm.pl/serwis,kotłow,gazowych.html	firma_panoramafirm.html
+https://panoramafirm.pl/instalacje,gazowe.html	firma_panoramafirm2.html
+https://www.gov.pl/web/kcnkyl/prawo	i_gov_prawo.html
+https://www.gov.pl/web/kcnkyl	i_gov_kcnkyl.html
+https://developers.google.com/search/docs/appearance/eeat	i_g_eeat.html
+https://developers.google.com/search/docs/fundamentals/creating-helpful-content	i_g_helpful.html
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide	i_g_seo.html
+https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf	i_qrg.pdf
+https://www.reddit.com/r/SEO/search.json?q=new+domain+how+long+rank&restrict_sr=1&limit=10	i_reddit_velocity.json
+https://www.reddit.com/r/SEO/search.json?q=people+also+ask+scrape&restrict_sr=1&limit=10	i_reddit_paa.json
+https://www.reddit.com/r/bigseo/search.json?q=keyword+research+without+tools&restrict_sr=1&limit=10	i_reddit_kw.json
+https://elektroda.pl/	i_elektroda.html
